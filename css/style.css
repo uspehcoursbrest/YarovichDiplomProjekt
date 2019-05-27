@@ -1,0 +1,95 @@
+body{
+    width: 1920px;
+}
+.header {
+    width: 1920px;
+    height: 147px;
+}
+
+.header.container {
+    width: 1165px;
+    height: 147px;
+    margin: 0 376.5px 0 372px;
+}
+
+.header.container.left {
+    width: 710px;
+    height: 91.5px;
+    margin: 23px 785px 32px 0;
+    padding: 23px 292px 32px 0;
+}
+
+.header.container.left.social {
+    width: 215px;
+    height: 28px;
+    margin: 0 495px 63px 0;
+    padding: 0 100px 46px 0;
+}
+
+.header.container.left.time {
+    width: 207.75px;
+    height: 21.67px;
+    margin: 2.83px 270px 64.5px 315.5px;
+    padding: 0 63px 47.5px 100px;
+}
+
+.header.container.left.login {
+    width: 125px;
+    height: 24px;
+    margin: 2.83px 0px 67px 503px;
+    padding: 0 0 50px 62.5px;
+}
+
+.header.container.left.menuHeader {
+    width: 709px;
+    height: 16.5px;
+    margin: 75px 0px 0px 0px;
+    padding: 47px 0 4px 0px;
+}
+
+.header.container.right {
+    width: 165px;
+    height: 54.63px;
+    margin: 27.5px 0 82px 1000px;
+    padding: 27.5px 0 82px 190px;
+}
+.banner{
+    width: 1920px;
+}
+.banner.container{
+    width: 1505px;
+    height: 872px;
+    margin: 0 36px 0 379px;
+}
+.banner.container.left{
+    width: 762px;
+    height: 367px;
+    margin: 245px 743px 261.5px 0;
+    padding: 245px 705px 261.5px 0;
+}
+.banner.container.right{
+    width: 38px;
+    height: 247.5px;
+    margin: 289px 0px 335px 1467px;
+    padding: 289px 0px 335px 705px;
+}
+.about{
+    width: 1920px;
+}
+.about.container{
+    width: 1165px;
+    height: 450px;
+    margin: 0 376.5px 0 379px;
+}
+.about.container.left{
+    width: 305px;
+    height: 226px;
+    margin: 118px 859.5px 107px 0px;
+    padding: 118px 96px 107px 0px;
+}
+.about.container.right{
+    width: 763px;
+    height: 223px;
+    margin: 124.5px 0 103px 401px;
+    padding: 124.5px 0 103px 96px;
+}
