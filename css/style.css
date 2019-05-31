@@ -28,7 +28,7 @@ header .loginEnter a,
     color: #11252d;
 }
 
-header .menu li a{
+header .menu li a {
     font-size: 16px;
     color: #11252d;
     font-weight: 700;
@@ -36,11 +36,12 @@ header .menu li a{
     text-transform: uppercase;
 }
 
-hrader .time .icon-clock1, input{
+header .time .icon-clock1, input {
     background-color: #2baf68;
     font-size: 20px;
     color: #ffffff;
 }
+
 /*Задать вопрос, почему не выделяется текст?*/
 .banner .left h1 {
     font-size: 41.4px;
@@ -59,14 +60,199 @@ hrader .time .icon-clock1, input{
     font-weight: 700;
 }
 
+.about .left span:first-child {
+    font-size: 21.5px;
+    color: #2baf68;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.about .left span {
+    font-size: 29.5px;
+    color: #11252d;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about .left button {
+    font-size: 16px;
+    color: #11252d;
+    font-weight: bold;
+    background-color: #ffc638;
+}
+
+.about .right {
+    width: 763px;
+}
+
+.about .right p {
+    font-size: 16px;
+    color: #11252d;
+    font-weight: 600;
+
+}
+
+.about .right p:first-child {
+    font-size: 16px;
+    color: #11252d;
+    font-weight: 300;
+
+}
+
+.about .right {
+    width: 763px;
+}
+
+.support .discription {
+    width: 590px;
+}
+
+.support .discription h2 {
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.support .discription p {
+    font-size: 16px;
+
+}
+
+.support span {
+    font-size: 18px;
+    color: #d5efe1;
+}
+
+.support a {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #d5efe1;
+
+}
+
+.graph .shedule {
+    width: 350px;
+}
+
+.graph .shedule p {
+    font-size: 34px;
+    color: #11252d;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.graph .shedule span:first-child {
+    font-size: 16px;
+    color: #2baf68;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.graph .shedule span {
+    font-size: 16px;
+    color: #415157;
+}
+.discript {
+    width: 220px;
+}
+
+.discription .discript .itemDiscript span {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+}
+
+.discription .discript .itemDiscript .greenNum {
+    font-size: 13px;
+    color: #2baf68;
+    text-align: center;
+}
+
+.discription .discript .itemDiscript p {
+    font-size: 12px;
+    font-weight: 100;
+    color: #000000;
+    text-align: center;
+}
 
 
+.cash  p {
+    font-size: 34px;
+    color: #11252d;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 
+.cash span{
+    font-size: 16px;
+    color: #2baf68;
+    font-weight: 600;
+    text-transform: uppercase;
+}
 
+.news .titNews span{
+    font-size: 34px;
+    color: #11252d;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 
+.news .titNews p{
+    font-size: 16px;
+    color: #2baf68;
+    font-weight: 600;
+    text-transform: uppercase;
+}
 
+.news button a {
+    font-size: 16px;
+    color: #102831;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #ffc638;
+    text-decoration: none;
+}
+.news .itemNews p{
+    font-size: 18px;
+    color: #102831;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.news .itemNews{
+    width: 210px;
+}
 
+footer .location p {
+    font-size: 11px;
 
+}
+footer .location {
+    width: 237px;
+}
+
+footer .location a {
+    font-size: 11px;
+    text-decoration: none;
+    color: #ffc638;
+}
+footer .menuFooter ul {
+    list-style-type: square;
+
+}
+footer .menuFooter a {
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+.copyright span {
+    font-size: 14px;
+    color: #102831;
+}
 
 
 
