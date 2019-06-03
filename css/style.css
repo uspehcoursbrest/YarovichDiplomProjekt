@@ -5,6 +5,7 @@
 body {
     margin: 0 auto;
     font-family: "Brutal Type";
+
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -40,6 +41,11 @@ header .time .icon-clock1, input {
     background-color: #2baf68;
     font-size: 20px;
     color: #ffffff;
+}
+
+header img {
+    height: 80px;
+    width: 168px;
 }
 
 /*Задать вопрос, почему не выделяется текст?*/
@@ -225,6 +231,23 @@ header .time .icon-clock1, input {
     width: 210px;
 }
 
+.newsImage {
+    width: 283px;
+    height: 269px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+footer .upFooter img {
+    height: 206px;
+    width: 161px;
+}
+
+footer .logoFooter img{
+    height: 104px;
+    width: 218px;
+}
 footer .location p {
     font-size: 11px;
 
