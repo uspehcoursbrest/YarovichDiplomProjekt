@@ -159,6 +159,7 @@ header img {
     font-size: 16px;
     color: #415157;
 }
+
 .discript {
     width: 220px;
 }
@@ -185,28 +186,28 @@ header img {
 }
 
 
-.cash  p {
+.cash p {
     font-size: 34px;
     color: #11252d;
     font-weight: bold;
     text-transform: uppercase;
 }
 
-.cash span{
+.cash span {
     font-size: 16px;
     color: #2baf68;
     font-weight: 600;
     text-transform: uppercase;
 }
 
-.news .titNews span{
+.news .titNews span {
     font-size: 34px;
     color: #11252d;
     font-weight: bold;
     text-transform: uppercase;
 }
 
-.news .titNews p{
+.news .titNews p {
     font-size: 16px;
     color: #2baf68;
     font-weight: 600;
@@ -221,13 +222,15 @@ header img {
     background-color: #ffc638;
     text-decoration: none;
 }
-.news .itemNews p{
+
+.news .itemNews p {
     font-size: 18px;
     color: #102831;
     font-weight: bold;
     text-transform: uppercase;
 }
-.news .itemNews{
+
+.news .itemNews {
     width: 210px;
 }
 
@@ -239,19 +242,130 @@ header img {
     background-position: center;
 }
 
+/*Вторая страница*/
+.bannerContacts span {
+    font-size: 90px;
+    line-height: 100px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.depTit p {
+    font-size: 20px;
+    line-height: 50px;
+    color: #2baf68;
+    font-weight: bold;
+}
+
+.depTit span {
+    font-size: 40px;
+    line-height: 90px;
+    color: #11252d;
+    font-weight: 900;
+}
+
+.depList span:last-child {
+    font-size: 16px;
+    line-height: 26px;
+    color: #11252d;
+}
+
+.depList a.phone {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+    color: #11252d;
+    text-decoration: none;
+}
+
+.depList a {
+    font-size: 16px;
+    line-height: 20px;
+    color: #2baf68;
+}
+
+.depList p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #5a6164;
+}
+
+.mapAdress {
+    background-color: #2baf68;
+    width: 364px;
+}
+
+.mapAdress p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.mapAdress span:nth-child(2),
+span:nth-child(4) {
+    font-size: 18px;
+    line-height: 30px;
+    color: #102831;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.titQ span {
+    font-size: 20px;
+    line-height: 50px;
+    color: #2baf68;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.titQ p {
+    font-size: 40px;
+    line-height: 50px;
+    color: #11252d;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.btnQ input {
+    background-color: #ffc638;
+}
+
+.rightQ input {
+    background-color: white;
+}
+
+.rightQ label {
+    font-size: 16px;
+    line-height: 110px;
+    color: #11252d;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.rightQ span {
+    font-size: 16px;
+    line-height: 110px;
+    color: #2baf68;
+    font-weight: bold;
+}
+
+/*FOOTER*/
 footer .upFooter img {
     height: 206px;
     width: 161px;
 }
 
-footer .logoFooter img{
+footer .logoFooter img {
     height: 104px;
     width: 218px;
 }
+
 footer .location p {
     font-size: 11px;
 
 }
+
 footer .location {
     width: 237px;
 }
@@ -261,10 +375,12 @@ footer .location a {
     text-decoration: none;
     color: #ffc638;
 }
+
 footer .menuFooter ul {
     list-style-type: square;
 
 }
+
 footer .menuFooter a {
     font-size: 15px;
     text-transform: uppercase;

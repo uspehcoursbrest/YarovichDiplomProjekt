@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ca9ea7d-ba33-485b-9836-84328fc2428b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/png/aboutinvest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/png/aboutprofit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/png/aboutreg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/png/aboutwork.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/png/social1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/png/social2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/png/social3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/png/social4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/png/social5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/png/support.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,14 +15,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.5172652">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+        <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/main.html">
+            <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="819">
-                  <caret line="415" column="7" selection-start-line="365" selection-end-line="415" selection-end-column="7" />
+                <state relative-caret-position="462">
+                  <caret line="271" selection-start-line="271" selection-end-line="271" />
                 </state>
               </provider>
             </entry>
@@ -43,10 +32,10 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/contacts.html">
+            <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="819">
-                  <caret line="201" column="7" selection-start-line="201" selection-start-column="7" selection-end-line="201" selection-end-column="7" />
+                <state relative-caret-position="-395">
+                  <caret line="271" selection-start-line="271" selection-end-line="271" />
                 </state>
               </provider>
             </entry>
@@ -69,15 +58,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/img/svg/16.svg" />
         <option value="$PROJECT_DIR$/img/svg/17.svg" />
         <option value="$PROJECT_DIR$/main.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/contacts.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="840" />
     <option name="width" value="840" />
     <option name="height" value="1020" />
   </component>
@@ -113,7 +103,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -148,18 +138,18 @@
       <workItem from="1559541159967" duration="298000" />
       <workItem from="1559541537918" duration="9751000" />
       <workItem from="1559602878486" duration="1343000" />
-      <workItem from="1559627583173" duration="4809000" />
+      <workItem from="1559627583173" duration="8955000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55449000" />
+    <option name="totallyTimeSpent" value="59595000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1036" extended-state="6" />
+    <frame x="840" y="0" width="840" height="1020" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992658" visible="true" weight="0.19782871" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992658" weight="0.12665862" />
       <window_info id="Structure" order="1" sideWeight="0.5007342" side_tool="true" weight="0.24900925" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -201,9 +191,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/svg/3.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/svg/4.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -357,8 +344,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/contacts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="201" column="7" selection-start-line="201" selection-start-column="7" selection-end-line="201" selection-end-column="7" />
+        <state relative-caret-position="517">
+          <caret line="85" column="22" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-395">
+          <caret line="271" selection-start-line="271" selection-end-line="271" />
         </state>
       </provider>
     </entry>
