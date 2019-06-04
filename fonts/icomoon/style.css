@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?rv04sp');
-  src:  url('fonts/icomoon.eot?rv04sp#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?rv04sp') format('truetype'),
-    url('fonts/icomoon.woff?rv04sp') format('woff'),
-    url('fonts/icomoon.svg?rv04sp#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?pkidr2');
+  src:  url('fonts/icomoon.eot?pkidr2#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?pkidr2') format('truetype'),
+    url('fonts/icomoon.woff?pkidr2') format('woff'),
+    url('fonts/icomoon.svg?pkidr2#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,66 +24,102 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-adress:before {
+.icon-clock:before {
   content: "\e900";
 }
-.icon-arrow:before {
+.icon-enter:before {
   content: "\e901";
 }
-.icon-ball1:before {
+.icon-reg:before {
   content: "\e902";
 }
-.icon-ball2:before {
+.icon-sup1:before {
   content: "\e903";
 }
-.icon-ball3:before {
+.icon-sup2:before {
   content: "\e904";
 }
-.icon-ball4:before {
+.icon-sup3:before {
   content: "\e905";
 }
-.icon-ball5:before {
+.icon-sup4:before {
   content: "\e906";
 }
-.icon-ball6:before {
+.icon-sup5:before {
   content: "\e907";
 }
-.icon-calendarpack:before {
-  content: "\e908";
-}
-.icon-clock1:before {
+.icon-ball1:before {
   content: "\e909";
 }
-.icon-email:before {
+.icon-ball2:before {
   content: "\e90a";
 }
-.icon-enter:before {
+.icon-ball3:before {
   content: "\e90b";
 }
-.icon-moneypack:before {
+.icon-ball4:before {
   content: "\e90c";
 }
-.icon-percentpack:before {
+.icon-ball5:before {
   content: "\e90d";
 }
-.icon-reg:before {
+.icon-ball6:before {
   content: "\e90e";
 }
-.icon-sup1:before {
-  content: "\e90f";
-}
-.icon-sup2:before {
-  content: "\e910";
-}
-.icon-sup3:before {
-  content: "\e911";
-}
-.icon-sup4:before {
-  content: "\e912";
-}
-.icon-sup5:before {
+.icon-percentpack:before {
   content: "\e913";
 }
-.icon-sup6:before {
+.icon-moneypack:before {
   content: "\e914";
+}
+.icon-calendarpack:before {
+  content: "\e915";
+}
+.icon-dollar:before {
+  content: "\e916";
+}
+.icon-arrowD:before {
+  content: "\e917";
+}
+.icon-abotreg:before {
+  content: "\e918";
+}
+.icon-aboutinvest:before {
+  content: "\e919";
+}
+.icon-aboutwork:before {
+  content: "\e91a";
+}
+.icon-abotprofit:before {
+  content: "\e91b";
+}
+.icon-arrowR:before {
+  content: "\e91c";
+}
+.icon-arrowL:before {
+  content: "\e91d";
+}
+.icon-adress:before {
+  content: "\e91e";
+}
+.icon-email:before {
+  content: "\e91f";
+}
+.icon-soc1:before {
+  content: "\e920";
+}
+.icon-soc2:before {
+  content: "\e921";
+}
+.icon-soc3:before {
+  content: "\e922";
+}
+.icon-soc4:before {
+  content: "\e923";
+}
+.icon-ytube:before {
+  content: "\e924";
+}
+.icon-num:before {
+  content: "\e92c";
 }
