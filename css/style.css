@@ -22,7 +22,10 @@ ul {
     width: 1167px;
     margin: 0 auto;
 }
-
+header {
+    height: 147px ;
+    background-color: #ffc638;
+}
 header .loginEnter a,
 .loginReg a {
     font-size: 13px;
@@ -48,15 +51,30 @@ header img {
     width: 168px;
 }
 
-/*Задать вопрос, почему не выделяется текст?*/
+header .headerWrapper .left {
+    width: 70%;
+    float: left;
+}
+
+
+
+ /*------------------------------------------------------*!*/
+.banner {
+    height: 600px;
+}
+ .banner .left {
+     margin-top: 290px;
+ }
 .banner .left h1 {
     font-size: 41.4px;
     font-weight: 100;
+    text-align: left;
 }
 
 .banner .left p {
     font-size: 81px;
     font-weight: 700;
+    text-align: left;
 }
 
 .banner .left button {
@@ -65,7 +83,7 @@ header img {
     font-size: 16px;
     font-weight: 700;
 }
-
+/*---------------------------------------------------------*/
 .about .left span:first-child {
     font-size: 21.5px;
     color: #2baf68;
@@ -86,29 +104,39 @@ header img {
     font-weight: bold;
     background-color: #ffc638;
 }
-
-.about .right {
-    width: 763px;
+.about .aboutWrap .left {
+    width: 35%;
+    float: left;
+}
+.aboutWrap .right {
+    width: 65%;
+    float: left;
 }
 
 .about .right p {
     font-size: 16px;
     color: #11252d;
     font-weight: 600;
-
 }
 
 .about .right p:first-child {
     font-size: 16px;
     color: #11252d;
     font-weight: 300;
+}
+
+.about .aboutWrap .left {
+    width: 35%;
+    float: left;
 
 }
 
-.about .right {
-    width: 763px;
-}
+.about .aboutWrap .right {
+    width: 65%;
+    float: left;
 
+}
+/*----------------------------------*/
 .support .discription {
     width: 590px;
 }
@@ -134,9 +162,11 @@ header img {
     font-weight: bold;
     text-decoration: none;
     color: #d5efe1;
-
 }
+/*-------------------------------------*/
 
+
+/*-------------------------------------*/
 .graph .shedule {
     width: 350px;
 }
@@ -159,7 +189,7 @@ header img {
     font-size: 16px;
     color: #415157;
 }
-
+/*-------------------------------------------*/
 .discript {
     width: 220px;
 }
@@ -185,7 +215,7 @@ header img {
     text-align: center;
 }
 
-
+/*--------------------------------------------------*/
 .cash p {
     font-size: 34px;
     color: #11252d;
@@ -199,7 +229,7 @@ header img {
     font-weight: 600;
     text-transform: uppercase;
 }
-
+/*---------------------------------------------------------*/
 .news .titNews span {
     font-size: 34px;
     color: #11252d;
