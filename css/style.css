@@ -56,6 +56,20 @@ header .headerWrapper .left {
     float: left;
 }
 
+header .headerWrapper .right {
+    width: 30%;
+    float: left;
+}
+
+.menuHeader .menu li {
+    display: inline-block;
+}
+
+.menuHeader .menu li + li {
+    display: inline-block;
+    margin-left: 50px;
+}
+
 
 
  /*------------------------------------------------------*!*/
@@ -167,8 +181,24 @@ header .headerWrapper .left {
 
 
 /*-------------------------------------*/
-.graph .shedule {
-    width: 350px;
+.graph .graphWrap .shedule {
+    width: 358px;
+    float: left;
+    padding: 117px 64px 110px 0;
+}
+
+.graph .graphWrap .graphImg {
+    width: 750px;
+    float: left;
+    padding: 117px 0 110px 0;
+
+}
+
+.clear::after {
+    content: '';
+    display: block;
+    clear: both;
+
 }
 
 .graph .shedule p {
@@ -229,7 +259,30 @@ header .headerWrapper .left {
     font-weight: 600;
     text-transform: uppercase;
 }
+
+.cashWrap>div {
+    width: 50%;
+    float: left;
+    padding: 120px 0 115px 0;
+}
 /*---------------------------------------------------------*/
+.news .caption>div {
+    width: 50%;
+    float: left;
+}
+
+.news .item .itemNews {
+    width: 50%;
+    float: left;
+
+}
+
+.news .item .itemNews>div {
+    width: 50%;
+    float: left;
+}
+
+
 .news .titNews span {
     font-size: 34px;
     color: #11252d;
@@ -381,6 +434,16 @@ span:nth-child(4) {
 }
 
 /*FOOTER*/
+footer .upFooter > div {
+    width: 25%;
+    float: left;
+}
+
+footer .downFooter > div {
+    width: 50%;
+    float: left;
+}
+
 footer .upFooter img {
     height: 206px;
     width: 161px;
@@ -423,7 +486,10 @@ footer .menuFooter a {
     color: #102831;
 }
 
+.adressFooter span{
+    display: inline-block;
 
+}
 
 
 

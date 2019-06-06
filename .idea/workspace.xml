@@ -18,12 +18,12 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/main.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="816">
-                  <caret line="167" column="22" lean-forward="true" selection-start-line="167" selection-start-column="22" selection-end-line="167" selection-end-column="22" />
+                <state relative-caret-position="-4367">
+                  <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
                   <folding>
                     <element signature="n#head#0;n#html#0;n#!!top" />
                   </folding>
@@ -34,12 +34,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="601">
-                  <caret line="166" selection-start-line="166" selection-end-line="166" />
+                <state relative-caret-position="590">
+                  <caret line="489" column="4" selection-start-line="489" selection-start-column="4" selection-end-line="489" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
@@ -62,15 +62,14 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-5" />
     <option name="y" value="-5" />
-    <option name="width" value="1449" />
-    <option name="height" value="879" />
+    <option name="width" value="1450" />
+    <option name="height" value="880" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -87,6 +86,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -119,23 +119,20 @@
       <option name="presentableId" value="Default" />
       <updated>1559805823440</updated>
       <workItem from="1559805824563" duration="8508000" />
+      <workItem from="1559834375994" duration="9331000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8508000" />
+    <option name="totallyTimeSpent" value="17839000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1036" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969843" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.118308" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -143,6 +140,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -154,8 +155,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="167" column="22" lean-forward="true" selection-start-line="167" selection-start-column="22" selection-end-line="167" selection-end-column="22" />
+        <state relative-caret-position="-4367">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
           </folding>
@@ -164,8 +165,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="166" selection-start-line="166" selection-end-line="166" />
+        <state relative-caret-position="590">
+          <caret line="489" column="4" selection-start-line="489" selection-start-column="4" selection-end-line="489" selection-end-column="4" />
         </state>
       </provider>
     </entry>
