@@ -60,7 +60,14 @@ header .headerWrapper .right {
     width: 30%;
     float: left;
 }
-
+.leftUp {
+    display: flex;
+    flex-flow: row wrap;
+    height: 60px;
+    width: 710px;
+    justify-content: space-between;
+    align-items: center;
+}
 .menuHeader .menu li {
     display: inline-block;
 }
@@ -70,8 +77,21 @@ header .headerWrapper .right {
     margin-left: 50px;
 }
 
+header .time {
+    display: flex;
+    flex-direction: row;
+    width: 130px;
+    height: 25px;
+    justify-content: space-around;
+}
 
+header .login > div {
+    display: inline-block;
+}
 
+header .login > div + div {
+    margin-left: 25px;
+}
  /*------------------------------------------------------*!*/
 .banner {
     height: 600px;
@@ -151,8 +171,15 @@ header .headerWrapper .right {
 
 }
 /*----------------------------------*/
-.support .discription {
-    width: 590px;
+.supWrap {
+    width: 1170px;
+    height: 570px;
+}
+.support .supWrap .discription {
+    width: 990px;
+    height: 575px;
+    position: relative;
+    background-color: #5a6164;
 }
 
 .support .discription h2 {
@@ -176,6 +203,19 @@ header .headerWrapper .right {
     font-weight: bold;
     text-decoration: none;
     color: #d5efe1;
+}
+
+.support .menuSup {
+    width: 360px;
+    height: 475px;
+    background-color: #2baf68;
+}
+
+.blockSup {
+    width: 250px;
+    height: 45px;
+    display: flex;
+    justify-content: space-evenly;
 }
 /*-------------------------------------*/
 
@@ -220,11 +260,14 @@ header .headerWrapper .right {
     color: #415157;
 }
 /*-------------------------------------------*/
+.dis {
+    width: 1170px;
+}
 .discript {
     width: 220px;
 }
 
-.discription .discript .itemDiscript span {
+.dis .discript .itemDiscript span {
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
@@ -232,17 +275,23 @@ header .headerWrapper .right {
     text-align: center;
 }
 
-.discription .discript .itemDiscript .greenNum {
+.dis .discript .itemDiscript .greenNum {
     font-size: 13px;
     color: #2baf68;
     text-align: center;
 }
 
-.discription .discript .itemDiscript p {
+.dis .discript .itemDiscript p {
     font-size: 12px;
     font-weight: 100;
     color: #000000;
     text-align: center;
+}
+
+.dis .discript {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 /*--------------------------------------------------*/
