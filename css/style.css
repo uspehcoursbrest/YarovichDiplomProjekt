@@ -92,6 +92,11 @@ header .login > div {
 header .login > div + div {
     margin-left: 25px;
 }
+.social {
+    display: flex;
+    justify-content: space-between;
+    width: 210px;
+}
  /*------------------------------------------------------*!*/
 .banner {
     height: 600px;
