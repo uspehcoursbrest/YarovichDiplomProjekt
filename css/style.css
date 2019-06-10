@@ -119,6 +119,12 @@ header .login > div + div {
 .social a {
     text-decoration: none;
 }
+
+.social span {
+    font-size: 20px;
+    border: 1px solid #102831;
+    border-radius: 50%;
+}
  /*------------------------------------------------------*!*/
 .banner .bgBanner{
     height: 900px;
@@ -316,14 +322,19 @@ header .login > div + div {
 
 
 /*-------------------------------------*/
+.graph {
+    height: 515px;
+}
 .graph .graphWrap .shedule {
-    width: 358px;
+    width: 420px;
+    height: 405px;
     float: left;
     padding: 117px 64px 110px 0;
 }
 
 .graph .graphWrap .graphImg {
-    width: 750px;
+    width: 745px;
+    height: 405px;
     float: left;
     padding: 117px 0 110px 0;
 
@@ -337,14 +348,18 @@ header .login > div + div {
 }
 
 .graph .shedule p {
-    font-size: 34px;
+    font-size: 40px;
+    line-height: 50px;
     color: #11252d;
-    font-weight: bold;
+    font-weight: 900;
     text-transform: uppercase;
+    margin-top: 17px;
+    margin-bottom: 51px;
 }
 
 .graph .shedule span:first-child {
     font-size: 16px;
+    line-height: 26px;
     color: #2baf68;
     font-weight: 600;
     text-transform: uppercase;
@@ -355,39 +370,55 @@ header .login > div + div {
     color: #415157;
 }
 /*-------------------------------------------*/
-.dis {
-    width: 1170px;
+
+.dis .bgDis {
+    height: 490px;
+    width: 1920px;
+
 }
-.discript {
-    width: 220px;
+.dis .discript {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    padding-top: 120px;
 }
 
+.dis .discript .itemDiscript {
+    width: 220px;
+    height: 270px;
+    text-align: center;
+}
+
+.dis .discript .itemDiscript span:first-child {
+    font-size: 90px;
+    color: #47c481;
+    text-align: center;
+    padding-bottom: 90px;
+}
 .dis .discript .itemDiscript span {
-    font-size: 13px;
-    font-weight: 700;
+    font-size: 18px;
+    line-height: 50px;
+    font-weight: bold;
     text-transform: uppercase;
     color: #000000;
-    text-align: center;
+
 }
 
 .dis .discript .itemDiscript .greenNum {
-    font-size: 13px;
+    font-size: 18px;
+    line-height: 50px;
+    font-weight: bold;
     color: #2baf68;
-    text-align: center;
+
 }
 
 .dis .discript .itemDiscript p {
-    font-size: 12px;
-    font-weight: 100;
+    font-size: 14px;
+    line-height: 22px;
     color: #000000;
-    text-align: center;
 }
 
-.dis .discript {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+
 
 /*--------------------------------------------------*/
 .cash p {
@@ -410,18 +441,39 @@ header .login > div + div {
     padding: 120px 0 115px 0;
 }
 /*---------------------------------------------------------*/
-.news .caption>div {
+.news {
+
+    height: 741px;
+    background-color: #f0f1f1;
+}
+.news .caption > div {
     width: 50%;
     float: left;
 }
 
-.news .item .itemNews {
-    width: 50%;
-    float: left;
+.news .caption .titNews {
+    margin-top: 120px;
+
+}
+.news .caption .titBtn {
+    width: 210px;
+    height: 55px;
+    background-color: #ffc638;
+    border: none;
+    border-radius: 55px;
+    margin: 135px 0 65px 355px;
 
 }
 
-.news .item .itemNews>div {
+.news .item .itemNews{
+    width: 560px;
+    float: left;
+    background-color: white;
+    margin: 0 3px;
+}
+
+
+.news .item .itemNews > div {
     width: 50%;
     float: left;
 }
@@ -433,7 +485,16 @@ header .login > div + div {
     font-weight: bold;
     text-transform: uppercase;
 }
+.news .item .itemNews input{
+    width: 140px;
+    height: 30px;
+    background-color: #2baf68;
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    color: #ffffff;
 
+}
 .news .titNews p {
     font-size: 16px;
     color: #2baf68;
@@ -457,9 +518,7 @@ header .login > div + div {
     text-transform: uppercase;
 }
 
-.news .itemNews {
-    width: 210px;
-}
+
 
 .newsImage {
     width: 283px;
@@ -470,11 +529,40 @@ header .login > div + div {
 }
 
 /*Вторая страница*/
-.bannerContacts span {
+.bannerContacts {
+    height: 330px;
+    width: 1920px;
+}
+
+.bannerContacts .bgContacts{
+    height: 330px;
+    width: 1920px;
+}
+
+
+.bannerContacts .titContacts span {
     font-size: 90px;
     line-height: 100px;
     text-transform: uppercase;
     font-weight: 900;
+}
+/*----------------------*/
+.department {
+    height: 710px;
+}
+.department .depItem {
+    width: 560px;
+    height: 475px;
+    float: left;
+    margin-top: 120px;
+}
+
+.department .depItem .grafik {
+    width: 605px;
+    height: 345px;
+    margin-top: 133px;
+    border: 1px solid #dfe5e8
+
 }
 
 .depTit p {
