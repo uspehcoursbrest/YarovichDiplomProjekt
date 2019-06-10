@@ -5,6 +5,7 @@
 body {
     margin: 0 auto;
     font-family: "Brutal Type";
+    width: 1920px;
 
 }
 
@@ -23,8 +24,8 @@ ul {
     margin: 0 auto;
 }
 header {
-    height: 147px ;
-    background-color: #ffc638;
+    height: 110px ;
+    background-color: #ffffff;
 }
 header .loginEnter a,
 .loginReg a {
@@ -40,15 +41,39 @@ header .menu li a {
     text-transform: uppercase;
 }
 
-header .time .icon-clock1, input {
+header .time {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 25px;
+    width: 130px;
+    height: 25px;
     background-color: #2baf68;
     font-size: 20px;
     color: #ffffff;
+    text-align: left;
+}
+header .time span {
+    width: 20px;
+    height: 20px;
+}
+header .time p {
+    font-size: 20px;
+    line-height: 15px;
+    font-weight: bold;
+    background-color: #2baf68;
+    border: none;
+    color: white;
+    height: 14px;
+    width: 80px;
+    margin: 0px 15px 0px 10px;
 }
 
 header img {
     height: 80px;
     width: 168px;
+    margin: 27px 380px 27px 185px;
 }
 
 header .headerWrapper .left {
@@ -77,13 +102,7 @@ header .headerWrapper .right {
     margin-left: 50px;
 }
 
-header .time {
-    display: flex;
-    flex-direction: row;
-    width: 130px;
-    height: 25px;
-    justify-content: space-around;
-}
+
 
 header .login > div {
     display: inline-block;
@@ -95,39 +114,64 @@ header .login > div + div {
 .social {
     display: flex;
     justify-content: space-between;
-    width: 210px;
+    width: 215px;
+}
+.social a {
+    text-decoration: none;
 }
  /*------------------------------------------------------*!*/
-.banner {
-    height: 600px;
+.banner .bgBanner{
+    height: 900px;
+    width: 1920px;
+    position: relative;
+
 }
  .banner .left {
-     margin-top: 290px;
+     position: absolute;
+     top: 280px;
+     bottom: 260px;
  }
 .banner .left h1 {
     font-size: 41.4px;
     font-weight: 100;
     text-align: left;
+    color: #ffffff;
+    box-shadow: 16px 16px 21px 0px rgba(0, 0, 0, 0.21);
 }
 
 .banner .left p {
     font-size: 81px;
     font-weight: 700;
     text-align: left;
+    color: #ffffff;
+    box-shadow: 16px 16px 21px 0px rgba(0, 0, 0, 0.21);
 }
 
 .banner .left button {
+    width: 250px;
+    height: 55px;
+    border: none;
+    border-radius: 55px;
+    margin-top: 78px;
     color: #ffffff;
     background-color: #2baf68;
     font-size: 16px;
     font-weight: 700;
 }
 /*---------------------------------------------------------*/
+.about {
+    height: 450px;
+}
+.about .left , .about .right {
+    margin-top: 120px;
+    margin-bottom: 105px;
+}
 .about .left span:first-child {
     font-size: 21.5px;
     color: #2baf68;
     font-weight: 600;
     text-transform: uppercase;
+
 }
 
 .about .left span {
@@ -142,6 +186,11 @@ header .login > div + div {
     color: #11252d;
     font-weight: bold;
     background-color: #ffc638;
+    margin-top: 105px;
+    border: none;
+    width: 250px;
+    height: 55px;
+    border-radius: 55px;
 }
 .about .aboutWrap .left {
     width: 35%;
@@ -151,7 +200,10 @@ header .login > div + div {
     width: 65%;
     float: left;
 }
-
+.about .right {
+    width: 765px;
+    height: 225px;
+}
 .about .right p {
     font-size: 16px;
     color: #11252d;
@@ -161,7 +213,8 @@ header .login > div + div {
 .about .right p:first-child {
     font-size: 16px;
     color: #11252d;
-    font-weight: 300;
+    font-weight: 400;
+    padding-bottom: 40px;
 }
 
 .about .aboutWrap .left {
@@ -176,33 +229,82 @@ header .login > div + div {
 
 }
 /*----------------------------------*/
-.supWrap {
-    width: 1170px;
-    height: 570px;
+.support {
+    height: 695px;
 }
-.support .supWrap .discription {
+.support .discription {
     width: 990px;
-    height: 575px;
+    height: 573px;
     position: relative;
-    background-color: #5a6164;
+    background-color: #102831;
+}
+.support .discription .titSup{
+    height: 340px;
+    width: 585px;
+    padding-top: 145px;
+    padding-bottom: 215px;
+    margin-left: 78px;
 }
 
-.support .discription h2 {
+.support .discription .titSup h2{
     font-size: 40px;
+    line-height: 50px;
     font-weight: 900;
+    color: white;
     text-transform: uppercase;
+    margin-top: 65px;
 }
 
-.support .discription p {
+.support .discription .titSup p{
     font-size: 16px;
-
+    line-height: 26px;
+    color: white;
+    margin-top: 56px;
 }
 
-.support span {
-    font-size: 18px;
+.support .discription .titSup span {
+    font-size: 115px;
+    color: #ffc638;
+}
+
+.support .discription .disP {
+    width: 585px;
+    height: 65px;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    margin-left: 78px;
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+
+.support .discription .blocksSup {
+    position: absolute;
+    background-color: #2baf68;
+    width: 365px;
+    height: 480px;
+    top: 50px;
+    right: -185px;
+}
+.support .discription .blckSup {
+    height: 390px;
+    width: 245px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 45px;
+
+}
+.support .discription .blocksSup span {
+    font-size: 40px;
     color: #d5efe1;
+    margin-right: 40px;
 }
-
+.support .discription .blocksSup .blockSup {
+    width: 245px;
+    display: flex;
+    align-content: space-between;
+    padding-bottom: 20px;
+}
 .support a {
     font-size: 18px;
     font-weight: bold;
@@ -210,18 +312,6 @@ header .login > div + div {
     color: #d5efe1;
 }
 
-.support .menuSup {
-    width: 360px;
-    height: 475px;
-    background-color: #2baf68;
-}
-
-.blockSup {
-    width: 250px;
-    height: 45px;
-    display: flex;
-    justify-content: space-evenly;
-}
 /*-------------------------------------*/
 
 
