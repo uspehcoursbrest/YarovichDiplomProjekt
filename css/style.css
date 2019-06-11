@@ -18,6 +18,7 @@ ul {
     padding: 0;
     list-style-type: none;
 }
+
 .invisLink {
     position: relative;
     z-index: 1;
@@ -35,14 +36,17 @@ ul {
     text-indent: 200%;
     white-space: nowrap;
 }
+
 .container {
     width: 1167px;
     margin: 0 auto;
 }
+
 header {
-    height: 110px ;
+    height: 110px;
     background-color: #ffffff;
 }
+
 header .loginEnter a,
 .loginReg a {
     font-size: 13px;
@@ -70,10 +74,12 @@ header .time {
     color: #ffffff;
     text-align: left;
 }
+
 header .time span {
     width: 20px;
     height: 20px;
 }
+
 header .time p {
     font-size: 20px;
     line-height: 15px;
@@ -92,15 +98,44 @@ header img {
     margin: 27px 380px 27px 185px;
 }
 
+.headerWrapper .left::before {
+    content: '';
+    display: block;
+    width: 1170px;
+    height: 150px;
+    background-color: #ffc638;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: -380px;
+}
+
+.headerWrapper .left::after {
+    content: '';
+    display: block;
+
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: calc(100% - 27px);
+    width: 0;
+    height: 0;
+    border-top: 150px solid #ffc638;
+    border-right: 30px solid transparent;
+}
+
 header .headerWrapper .left {
+    position: relative;
     width: 70%;
     float: left;
+    z-index: 1;
 }
 
 header .headerWrapper .right {
     width: 30%;
     float: left;
 }
+
 .leftUp {
     display: flex;
     flex-flow: row wrap;
@@ -109,6 +144,7 @@ header .headerWrapper .right {
     justify-content: space-between;
     align-items: center;
 }
+
 .menuHeader .menu li {
     display: inline-block;
 }
@@ -119,7 +155,6 @@ header .headerWrapper .right {
 }
 
 
-
 header .login > div {
     display: inline-block;
 }
@@ -127,11 +162,13 @@ header .login > div {
 header .login > div + div {
     margin-left: 25px;
 }
+
 .social {
     display: flex;
     justify-content: space-between;
     width: 215px;
 }
+
 .social a {
     text-decoration: none;
 }
@@ -141,18 +178,21 @@ header .login > div + div {
     border: 1px solid #102831;
     border-radius: 50%;
 }
- /*------------------------------------------------------*!*/
-.banner .bgBanner{
+
+/*------------------------------------------------------*!*/
+.banner .bgBanner {
     height: 900px;
     width: 1920px;
     position: relative;
 
 }
- .banner .left {
-     position: absolute;
-     top: 280px;
-     bottom: 260px;
- }
+
+.banner .left {
+    position: absolute;
+    top: 280px;
+    bottom: 260px;
+}
+
 .banner .left h1 {
     font-size: 41.4px;
     font-weight: 100;
@@ -180,14 +220,17 @@ header .login > div + div {
     font-size: 16px;
     font-weight: 700;
 }
+
 /*---------------------------------------------------------*/
 .about {
     height: 450px;
 }
-.about .left , .about .right {
+
+.about .left, .about .right {
     margin-top: 120px;
     margin-bottom: 105px;
 }
+
 .about .left span:first-child {
     font-size: 21.5px;
     color: #2baf68;
@@ -214,18 +257,22 @@ header .login > div + div {
     height: 55px;
     border-radius: 55px;
 }
+
 .about .aboutWrap .left {
     width: 35%;
     float: left;
 }
+
 .aboutWrap .right {
     width: 65%;
     float: left;
 }
+
 .about .right {
     width: 765px;
     height: 225px;
 }
+
 .about .right p {
     font-size: 16px;
     color: #11252d;
@@ -250,17 +297,20 @@ header .login > div + div {
     float: left;
 
 }
+
 /*----------------------------------*/
 .support {
     height: 695px;
 }
+
 .support .discription {
     width: 990px;
     height: 573px;
     position: relative;
     background-color: #102831;
 }
-.support .discription .titSup{
+
+.support .discription .titSup {
     height: 340px;
     width: 585px;
     padding-top: 145px;
@@ -268,7 +318,7 @@ header .login > div + div {
     margin-left: 78px;
 }
 
-.support .discription .titSup h2{
+.support .discription .titSup h2 {
     font-size: 40px;
     line-height: 50px;
     font-weight: 900;
@@ -277,7 +327,7 @@ header .login > div + div {
     margin-top: 65px;
 }
 
-.support .discription .titSup p{
+.support .discription .titSup p {
     font-size: 16px;
     line-height: 26px;
     color: white;
@@ -308,6 +358,7 @@ header .login > div + div {
     top: 50px;
     right: -185px;
 }
+
 .support .discription .blckSup {
     height: 390px;
     width: 245px;
@@ -316,17 +367,20 @@ header .login > div + div {
     margin-bottom: 45px;
 
 }
+
 .support .discription .blocksSup span {
     font-size: 40px;
     color: #d5efe1;
     margin-right: 40px;
 }
+
 .support .discription .blocksSup .blockSup {
     width: 245px;
     display: flex;
     align-content: space-between;
     padding-bottom: 20px;
 }
+
 .support a {
     font-size: 18px;
     font-weight: bold;
@@ -341,6 +395,7 @@ header .login > div + div {
 .graph {
     height: 515px;
 }
+
 .graph .graphWrap .shedule {
     width: 420px;
     height: 405px;
@@ -385,6 +440,7 @@ header .login > div + div {
     font-size: 16px;
     color: #415157;
 }
+
 /*-------------------------------------------*/
 
 .dis .bgDis {
@@ -392,12 +448,14 @@ header .login > div + div {
     width: 1920px;
 
 }
+
 .dis .discript {
     display: flex;
     justify-content: space-between;
     width: 1170px;
     padding-top: 120px;
 }
+
 .dis .discript .itemDiscript::before {
     content: '';
     display: block;
@@ -427,6 +485,7 @@ header .login > div + div {
     text-align: center;
 
 }
+
 .dis .discript .itemDiscript span {
     font-size: 18px;
     line-height: 50px;
@@ -451,7 +510,6 @@ header .login > div + div {
 }
 
 
-
 /*--------------------------------------------------*/
 .cash p {
     font-size: 34px;
@@ -467,17 +525,19 @@ header .login > div + div {
     text-transform: uppercase;
 }
 
-.cashWrap>div {
+.cashWrap > div {
     width: 50%;
     float: left;
     padding: 120px 0 115px 0;
 }
+
 /*---------------------------------------------------------*/
 .news {
 
     height: 741px;
     background-color: #f0f1f1;
 }
+
 .news .caption > div {
     width: 50%;
     float: left;
@@ -487,6 +547,7 @@ header .login > div + div {
     margin-top: 120px;
 
 }
+
 .news .caption .titBtn {
     width: 210px;
     height: 55px;
@@ -497,7 +558,7 @@ header .login > div + div {
 
 }
 
-.news .item .itemNews{
+.news .item .itemNews {
     width: 560px;
     float: left;
     background-color: white;
@@ -517,7 +578,8 @@ header .login > div + div {
     font-weight: bold;
     text-transform: uppercase;
 }
-.news .item .itemNews input{
+
+.news .item .itemNews input {
     width: 140px;
     height: 30px;
     background-color: #2baf68;
@@ -527,6 +589,7 @@ header .login > div + div {
     color: #ffffff;
 
 }
+
 .news .titNews p {
     font-size: 16px;
     color: #2baf68;
@@ -551,7 +614,6 @@ header .login > div + div {
 }
 
 
-
 .newsImage {
     width: 283px;
     height: 269px;
@@ -566,13 +628,13 @@ header .login > div + div {
     width: 1920px;
 }
 
-.bannerContacts .bgContacts{
+.bannerContacts .bgContacts {
     height: 330px;
     width: 1920px;
 }
 
 
-.bannerContacts .titContacts  {
+.bannerContacts .titContacts {
     font-size: 90px;
     line-height: 100px;
     text-transform: uppercase;
@@ -580,11 +642,13 @@ header .login > div + div {
     padding-top: 150px;
 
 }
+
 /*----------------------*/
 .department {
     height: 710px;
 }
-.department .itemDep .depItem{
+
+.department .itemDep .depItem {
     width: 50%;
     height: 475px;
     float: left;
@@ -612,12 +676,14 @@ header .login > div + div {
     color: #11252d;
     font-weight: 900;
 }
+
 .department .depItem .grafik .depList {
     margin-left: 60px;
     margin-top: 40px;
 
 
 }
+
 .depList span[class*="icon-"] {
     width: 50px;
     height: 50px;
@@ -628,6 +694,7 @@ header .login > div + div {
     background-color: #ffc638;
 
 }
+
 .depList span:last-child {
     font-size: 16px;
     line-height: 26px;
@@ -656,9 +723,11 @@ header .login > div + div {
     padding-left: 40px;
     width: 420px;
 }
+
 map {
     height: 850px;
 }
+
 .map .bgContacts {
     width: 990px;
     height: 495px;
@@ -666,6 +735,7 @@ map {
     margin-top: 120px;
     margin-bottom: 235px;
 }
+
 .map .mapAdress {
     position: absolute;
     background-color: #2baf68;
@@ -677,16 +747,19 @@ map {
     padding-left: 40px;
 
 }
+
 .map .mapAdress > div {
     display: flex;
     flex-wrap: wrap;
 }
+
 .map .mapAdress span[class*="icon-"] {
     font-size: 35px;
     color: #102831;
 
 }
-.map .mapAdress > div p  {
+
+.map .mapAdress > div p {
     font-size: 18px;
     line-height: 30px;
     color: #ffffff;
@@ -706,9 +779,11 @@ span:nth-child(4) {
     padding-left: 20px;
 
 }
+
 .question {
     height: 520px;
 }
+
 .question .leftQ {
     width: 33%;
     float: left;
@@ -718,6 +793,7 @@ span:nth-child(4) {
     width: 66%;
     float: left;
 }
+
 .titQ span {
     font-size: 20px;
     line-height: 50px;
@@ -747,13 +823,14 @@ span:nth-child(4) {
     font-weight: bold;
     text-transform: uppercase;
 }
-.rightQ .themeQ{
+
+.rightQ .themeQ {
     background-color: white;
     width: 360px;
     height: 52px;
 }
 
-.rightQ .mailQ{
+.rightQ .mailQ {
     background-color: white;
     width: 360px;
     height: 52px;
@@ -827,7 +904,7 @@ footer .menuFooter a {
     color: #102831;
 }
 
-.adressFooter span{
+.adressFooter span {
     display: inline-block;
 
 }
