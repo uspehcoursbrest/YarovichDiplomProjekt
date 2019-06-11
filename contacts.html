@@ -69,6 +69,7 @@
     </div>
     <div class="department">
         <div class="container">
+            <div class="itemDep">
             <div class="depItem clear">
                 <div class="depTit">
                     <p>ДЕПАРТАМЕНТ</p>
@@ -80,7 +81,7 @@
                         <span>ПН-ПТ, 11:00 ДО 19:00 (UTC+1)</span>
                     </div>
                     <div class="depList">
-                        <span class=""></span>
+                        <span class="icon-clock"></span>
                         <a class="phone" href="">+7 499 609-13-36</a>
                     </div>
                     <div class="depList">
@@ -91,7 +92,7 @@
                     </div>
                 </div>
             </div>
-            <div class="depItem">
+            <div class="depItem clear">
                 <div class="depTit">
                     <p>ДЕПАРТАМЕНТ</p>
                     <span>ТЕХНИЧЕСКОЙ ПОДДЕРЖКИ</span>
@@ -109,13 +110,12 @@
                     </div>
                 </div>
             </div>
+            </div>
         </div>
     </div>
     <div class="map">
         <div class="container">
-            <div class="mapLocation">
-
-            </div>
+            <div class="bgContacts" style="background-image: url(img/jpg/map.jpg)">
             <div class="mapAdress">
                 <div class="location">
                     <span class="icon-adress"></span>
@@ -128,11 +128,12 @@
                     <p>SC587986</p>
                 </div>
             </div>
+            </div>
         </div>
     </div>
     <div class="question">
         <div class="container">
-            <div class="leftQ">
+            <div class="leftQ clear">
                 <div class="titQ">
                     <span>у вас есть вопросы?</span>
                     <p>НАПИШИТЕ НАМ</p>
@@ -141,14 +142,20 @@
                     <input type="submit" value="отправить сообщение">
                 </div>
             </div>
-            <div class="rightQ">
-                <form action="#">
+            <div class="rightQ clear">
+                <form class="formQ" action="#">
+
+
                     <label for="theme">ТЕМА<span>*</span>:</label>
-                    <input type="text" name="" id="theme">
+                    <input class="themeQ" type="text" name="" id="theme">
+
                     <label for="mail">E-mail<span>*</span>:</label>
-                    <input type="text" name="" id="mail">
+                    <input class="mailQ" type="text" name="" id="mail">
+
+
                     <label for="quest">СООБЩЕНИЕ<span>*</span>:</label>
-                    <textarea name="question" id="quest"></textarea>
+                    <textarea class="questQ" name="question" id="quest"></textarea>
+
                 </form>
             </div>
         </div>

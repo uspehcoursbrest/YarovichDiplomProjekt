@@ -18,7 +18,23 @@ ul {
     padding: 0;
     list-style-type: none;
 }
+.invisLink {
+    position: relative;
+    z-index: 1;
+}
 
+.invisLink > a {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    height: 100%;
+    z-index: 7;
+    overflow: hidden;
+    text-indent: 200%;
+    white-space: nowrap;
+}
 .container {
     width: 1167px;
     margin: 0 auto;
@@ -382,18 +398,34 @@ header .login > div + div {
     width: 1170px;
     padding-top: 120px;
 }
+.dis .discript .itemDiscript::before {
+    content: '';
+    display: block;
+    width: 190px;
+    height: 3px;
+    background-image: url(../img/png/lineyellow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 132px;
+    left: 20px;
+}
 
 .dis .discript .itemDiscript {
+    position: relative;
     width: 220px;
     height: 270px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+
 }
 
-.dis .discript .itemDiscript span:first-child {
+.dis .discript .itemDiscript span[class*="icon-"] {
     font-size: 90px;
     color: #47c481;
     text-align: center;
-    padding-bottom: 90px;
+
 }
 .dis .discript .itemDiscript span {
     font-size: 18px;
@@ -409,7 +441,7 @@ header .login > div + div {
     line-height: 50px;
     font-weight: bold;
     color: #2baf68;
-
+    padding-top: 90px;
 }
 
 .dis .discript .itemDiscript p {
@@ -540,25 +572,27 @@ header .login > div + div {
 }
 
 
-.bannerContacts .titContacts span {
+.bannerContacts .titContacts  {
     font-size: 90px;
     line-height: 100px;
     text-transform: uppercase;
     font-weight: 900;
+    padding-top: 150px;
+
 }
 /*----------------------*/
 .department {
     height: 710px;
 }
-.department .depItem {
-    width: 560px;
+.department .itemDep .depItem{
+    width: 50%;
     height: 475px;
     float: left;
     margin-top: 120px;
 }
 
 .department .depItem .grafik {
-    width: 605px;
+    width: 560px;
     height: 345px;
     margin-top: 133px;
     border: 1px solid #dfe5e8
@@ -578,7 +612,22 @@ header .login > div + div {
     color: #11252d;
     font-weight: 900;
 }
+.department .depItem .grafik .depList {
+    margin-left: 60px;
+    margin-top: 40px;
 
+
+}
+.depList span[class*="icon-"] {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 28px;
+    border-radius: 50%;
+    border: 1px solid #ffc638;
+    background-color: #ffc638;
+
+}
 .depList span:last-child {
     font-size: 16px;
     line-height: 26px;
@@ -597,41 +646,85 @@ header .login > div + div {
     font-size: 16px;
     line-height: 20px;
     color: #2baf68;
+
 }
 
 .depList p {
     font-size: 14px;
-    line-height: 20px;
+    line-height: 28px;
     color: #5a6164;
+    padding-left: 40px;
+    width: 420px;
 }
-
-.mapAdress {
+map {
+    height: 850px;
+}
+.map .bgContacts {
+    width: 990px;
+    height: 495px;
+    position: relative;
+    margin-top: 120px;
+    margin-bottom: 235px;
+}
+.map .mapAdress {
+    position: absolute;
     background-color: #2baf68;
     width: 364px;
-}
+    height: 396px;
+    top: 50px;
+    right: -180px;
+    padding-top: 60px;
+    padding-left: 40px;
 
-.mapAdress p {
+}
+.map .mapAdress > div {
+    display: flex;
+    flex-wrap: wrap;
+}
+.map .mapAdress span[class*="icon-"] {
+    font-size: 35px;
+    color: #102831;
+
+}
+.map .mapAdress > div p  {
     font-size: 18px;
     line-height: 30px;
     color: #ffffff;
     font-weight: bold;
+    padding-left: 51.5px;
+    width: 250px;
+    padding-bottom: 50px;
 }
 
-.mapAdress span:nth-child(2),
+.map .mapAdress span:nth-child(2),
 span:nth-child(4) {
     font-size: 18px;
     line-height: 30px;
     color: #102831;
     font-weight: bold;
     text-transform: uppercase;
+    padding-left: 20px;
+
+}
+.question {
+    height: 520px;
+}
+.question .leftQ {
+    width: 33%;
+    float: left;
 }
 
+.question .rightQ {
+    width: 66%;
+    float: left;
+}
 .titQ span {
     font-size: 20px;
     line-height: 50px;
     color: #2baf68;
     font-weight: bold;
     text-transform: uppercase;
+
 }
 
 .titQ p {
@@ -643,11 +736,27 @@ span:nth-child(4) {
 }
 
 .btnQ input {
+    width: 300px;
+    height: 55px;
     background-color: #ffc638;
+    margin-top: 195px;
+    border: none;
+    border-radius: 55px;
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.rightQ .themeQ{
+    background-color: white;
+    width: 360px;
+    height: 52px;
 }
 
-.rightQ input {
+.rightQ .mailQ{
     background-color: white;
+    width: 360px;
+    height: 52px;
 }
 
 .rightQ label {
