@@ -379,13 +379,11 @@ header .login > div + div {
     margin-bottom: 45px;
 }
 
-.support .discription .blockSup span:hover {
+.support .discription .blckSup a:hover {
     color: #000000;
 }
 
-support .discription .blockSup a:hover {
-    color: black;
-}
+
 
 .support .discription .blocksSup span {
     font-size: 40px;
