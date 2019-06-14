@@ -196,9 +196,27 @@ header .login > div + div {
     height: 900px;
     width: 1920px;
     position: relative;
-
+    animation: blink 3s infinite;
 }
 
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0.9;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 0.9;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
 .banner .left {
     position: absolute;
     top: 280px;
@@ -349,6 +367,7 @@ header .login > div + div {
 .support .discription .titSup span {
     font-size: 115px;
     color: #ffc638;
+
 }
 
 .support .discription .disP {
@@ -463,6 +482,7 @@ header .login > div + div {
 .dis .bgDis {
     height: 490px;
     width: 1920px;
+    animation: blink 3s infinite;
 
 }
 
