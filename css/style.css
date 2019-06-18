@@ -451,6 +451,7 @@ header .login > div + div {
 .packet .leftPack {
     width: 525px;
     height: 435px;
+    margin-top: 120px;
 }
 .titPack span {
     font-size: 40px;
@@ -476,9 +477,69 @@ header .login > div + div {
 }
 .disPack {
     width: 368px;
+    margin-top: 50px;
 }
-.disPack .itemDP {
-    
+.disPack .itemDP > div {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 40px;
+}
+.itemDP span[class*="icon-"] {
+    font-size: 40px;
+    color: #ffc638;
+}
+
+.itemDP .textDP span {
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    padding-left: 25px;
+}
+
+.itemDP .textDP span:last-child {
+    color: #fec538;
+}
+.packet .rightPack .upRP {
+    width: 645px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.packet .rightPack .downRP {
+    width: 645px;
+    height: 201px;
+    margin-top: 37px;
+    display: flex;
+    justify-content: space-between;
+}
+.rightPack button > span {
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #102831;
+}
+
+.rightPack button > span[class*="icon-"] {
+    font-size: 70px;
+    color: #ffffff;
+    font-weight: 100;
+    padding-top: 30px;
+}
+
+.rightPack button > span:last-child {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #ffffff;
+}
+.rightPack button {
+    width: 187px;
+    height: 200px;
+    background-color: #299c53;
+    border: none;
+}
+.packet .rightPack button + button {
+    margin-left: 40px;
 }
 /*-------------------------------------*/
 .graph {
