@@ -2,11 +2,10 @@
     box-sizing: border-box;
 }
 
-body {
-    width: auto;
+body, html {
+    width: 1920px;
     margin: 0 auto;
     font-family: "Brutal Type";
-    overflow-x: auto;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -45,6 +44,7 @@ button:hover, input:hover {
 }
 
 header {
+    width: 1920px;
     height: 110px;
     background-color: #ffffff;
 }
@@ -193,6 +193,9 @@ header .login > div + div {
 }
 
 /*------------------------------------------------------*!*/
+.banner {
+    width: 1920px;
+}
 .banner .container {
     position: relative;
     height: 910px;
@@ -260,6 +263,7 @@ header .login > div + div {
 /*---------------------------------------------------------*/
 .about {
     height: 450px;
+    width: 1920px;
 }
 
 .about .left, .about .right {
@@ -294,15 +298,7 @@ header .login > div + div {
     border-radius: 55px;
 }
 
-.about .aboutWrap .left {
-    width: 35%;
-    float: left;
-}
 
-.aboutWrap .right {
-    width: 65%;
-    float: left;
-}
 
 .about .right {
     width: 765px;
@@ -336,6 +332,7 @@ header .login > div + div {
 
 /*----------------------------------*/
 .support {
+    width: 1920px;
     height: 695px;
 }
 
@@ -431,6 +428,9 @@ header .login > div + div {
 }
 
 /*-------------------------------------*/
+.packet {
+    width: 1920px;
+}
 .packet .container {
     position: relative;
     height: 1080px;
@@ -541,8 +541,15 @@ header .login > div + div {
 .packet .rightPack button + button {
     margin-left: 40px;
 }
+
+.packet .calculator {
+    display: inline-block;
+
+
+}
 /*-------------------------------------*/
 .graph {
+    width: 1920px;
     height: 515px;
 }
 
@@ -592,6 +599,9 @@ header .login > div + div {
 }
 
 /*-------------------------------------------*/
+.dis {
+    width: 1920px;
+}
 .dis .container {
     position: relative;
     height: 490px;
@@ -669,6 +679,10 @@ header .login > div + div {
 
 
 /*--------------------------------------------------*/
+.cash {
+    width: 1920px;
+}
+
 .cash p {
     font-size: 34px;
     color: #11252d;
@@ -688,11 +702,27 @@ header .login > div + div {
     float: left;
     padding: 120px 0 115px 0;
 }
+.tableCash {
+    display: table;
+    width: 100%;
+}
+.tableCash li {
+    height: 15px;
+    display: table-row;
+}
+.cashWrap .tableCash li span {
+    display: table-cell;
+    vertical-align: middle;
+}
 
 /*---------------------------------------------------------*/
 .news {
+    width: 1920px;
+}
+.news .container {
+
     height: 741px;
-    background-color: #f0f1f1;
+
 }
 
 .news .caption > div {
@@ -1015,6 +1045,7 @@ span:nth-child(4) {
 
 /*FOOTER*/
 footer {
+    width: 1920px;
     background-color: #102831;
 }
 footer .container{
