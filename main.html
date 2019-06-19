@@ -61,23 +61,23 @@
     <!--Баннер-->
     <div class="banner">
         <div class="container">
-            <div class="bgBanner" style="background-image: url(img/jpg/banner.jpg)">
-                <!--Левая часть-->
-                <div class="left">
-                    <h1>ДУМАЙТЕ ИННОВАЦИОННО</h1>
-                    <p>ЗАРАБАТЫВАЙТЕ <br>НА СТАВКАХ!</p>
-                    <button>ПРИСОЕДИНИТЬСЯ</button>
-                </div>
-                <!--Правая часть-->
-                <!--<div class="right">
-                    <div>
-                        <button>О1</button>
-                        <button>О2</button>
-                        <button>О3</button>
-                        <button>О4</button>
-                    </div>
-                </div>-->
+            <!--            <div class="bgBanner" style="background-image: url(img/jpg/banner.jpg)">-->
+            <!--Левая часть-->
+            <div class="left">
+                <h1>ДУМАЙТЕ ИННОВАЦИОННО</h1>
+                <p>ЗАРАБАТЫВАЙТЕ <br>НА СТАВКАХ!</p>
+                <button>ПРИСОЕДИНИТЬСЯ</button>
             </div>
+            <!--Правая часть-->
+            <!--<div class="right">
+                <div>
+                    <button>О1</button>
+                    <button>О2</button>
+                    <button>О3</button>
+                    <button>О4</button>
+                </div>
+            </div>-->
+            <!--            </div>-->
         </div>
     </div>
     <!--О Onebet Invest-->
@@ -231,7 +231,7 @@
                             <label for="number">Введите сумму:</label>
                             <input type="number" name="number" id="number">
                         </div>
-                        <div div="choicePacket">
+                        <div class="choicePacket">
                             <label for="selection">Выберите пакет:</label>
                             <select name="" id="selection">
                                 <option value=""></option>
@@ -239,55 +239,62 @@
                         </div>
                     </div>
                     <div class="profit itemChoice">
-                        <div>
-                            <label for="profit">общая прибыль за год</label>
-                            <input type="text" id="profit">
+                        <div class="choiceProfit">
+                            <label>общая прибыль за год</label>
+                            <span>1642.50$</span>
                             <input type="submit" value="Инвестировать">
                         </div>
                     </div>
                     <div class="income itemChoice">
-                        <div>
-                            <label for="day">Доход за сутки: </label>
-                            <input type="number" id="day">
-                            <label for="month">Доход за Месяц: </label>
-                            <input type="number" id="month">
-                            <label for="halfyear">Доход за 6 Месяцев:</label>
-                            <input type="number" id="halfyear">
-                        </div>
-                    </div>
-                    <div class="referal itemChoice">
-                        <label>Реферальная программа</label>
-                        <ul>
+                        <ul class="incomeTable">
                             <li>
-                                <input type="button" value="6%">
+                                <span class="incomeTit">Доход за сутки:</span>
+                                <span class="incomeSum">4.50$</span>
                             </li>
                             <li>
-                                <input type="button" value="- 8% ">
+                                <span class="incomeTit">Доход за Месяц: </span>
+                                <span class="incomeSum">135.00$</span>
                             </li>
                             <li>
-                                <input type="button" value="- 10%">
-                            </li>
-                            <li>
-                                <input type="button" value="- 11%">
-                            </li>
-                            <li>
-                                <input type="button" value="- 12,5%">
-                            </li>
-                            <li>
-                                <input type="button" value="- 13,5%">
-                            </li>
-                            <li>
-                                <input type="button" value="- 14,5%">
-                            </li>
-                            <li>
-                                <input type="button" value="- 15%">
-                            </li>
-                            <li>
-                                <input type="button" value="- 15,5%">
+                                <span class="incomeTit">Доход за 6 Месяцев: </span>
+                                <span class="incomeSum">819.00$</span>
                             </li>
                         </ul>
                     </div>
                 </form>
+                <div class="referal itemChoice">
+                    <span class="referalTit">Реферальная программа</span>
+                    <ul class="referalList">
+                        <li>
+                            <span>6%</span>
+                        </li>
+                        <li>
+                            <span>- 8%</span>
+
+                        </li>
+                        <li>
+                            <span>- 10%</span>
+                        </li>
+                        <li>
+                            <span>- 11%</span>
+                        </li>
+                        <li>
+                            <span>- 12,5%</span>
+                        </li>
+                        <li>
+                            <span>- 13,5%</span>
+                        </li>
+                        <li>
+                            <span>- 14,5%</span>
+                        </li>
+                        <li>
+                            <span>- 15%</span>
+                        </li>
+                        <li>
+                            <span>- 15,5%</span>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -311,29 +318,41 @@
     <!--Описание деятельности-->
     <div class="dis">
         <div class="container">
-            <div class="bgDis" style="background-image: url(img/jpg/dis.jpg)">
-                <div class="discript">
-                    <div class="itemDiscript">
-                        <span class="icon-abotreg"></span>
-                        <span class="greenNum">01.Регистрация</span>
-                        <p>Без больших затрат, времени и сил зарегистрируйтесь прямо здесь и сейчас у нас на сайте!</p>
+            <!--            <div class="bgDis" style="background-image: url(img/jpg/dis.jpg)">-->
+            <div class="discript">
+                <div class="itemDiscript">
+                    <span class="icon-abotreg"></span>
+                    <div class="greenNum">
+                        <span>01.</span>
+                        <span>Регистрация</span>
                     </div>
-                    <div class="itemDiscript">
-                        <span class="icon-aboutinvest"></span>
-                        <span class="greenNum">02. Инвестирование</span>
-                        <p>Грамотное вложение средств в проверенный ресурс – залог успешного дохода в будущем!</p>
-                    </div>
-                    <div class="itemDiscript">
-                        <span class="icon-aboutwork"></span>
-                        <span class="greenNum">03. Работа трейдеров</span>
-                        <p>Высокая степень профессионализма и ответственности трейдеров!</p>
-                    </div>
-                    <div class="itemDiscript">
-                        <span class="icon-abotprofit"></span>
-                        <span class="greenNum">04.Прибыль</span>
-                        <p>Вкладывайтесь в Onebetinvest – получайте прибыль уже сегодня!</p>
-                    </div>
+                    <p>Без больших затрат, времени и сил зарегистрируйтесь прямо здесь и сейчас у нас на сайте!</p>
                 </div>
+                <div class="itemDiscript">
+                    <span class="icon-aboutinvest"></span>
+                    <div class="greenNum">
+                        <span>02.</span>
+                        <span>Инвестирование</span>
+                    </div>
+                    <p>Грамотное вложение средств в проверенный ресурс – залог успешного дохода в будущем!</p>
+                </div>
+                <div class="itemDiscript">
+                    <span class="icon-aboutwork"></span>
+                    <div class="greenNum">
+                        <span>03.</span>
+                        <span>Работа трейдеров</span>
+                    </div>
+                    <p>Высокая степень профессионализма и ответственности трейдеров!</p>
+                </div>
+                <div class="itemDiscript">
+                    <span class="icon-abotprofit"></span>
+                    <div class="greenNum">
+                        <span>04.</span>
+                        <span>Прибыль</span>
+                    </div>
+                    <p>Вкладывайтесь в Onebetinvest – получайте прибыль уже сегодня!</p>
+                </div>
+                <!--                </div>-->
             </div>
         </div>
     </div>
@@ -474,10 +493,10 @@
                     <div class="newsImage" style="background-image: url(img/jpg/news2.jpg);"></div>
                 </div>
             </div>
-            <div class="arrow">
-                <span class="icon-arrowL"></span>
-                <span class="icon-arrowR"></span>
-            </div>
+            <!--<div class="arrow">
+                     <span class="icon-arrowL"></span>
+                     <span class="icon-arrowR"></span>
+            </div>-->
         </div>
     </div>
 </div>
@@ -496,12 +515,18 @@
             <div class="location">
                 <div class="adressFooter">
                     <span class="icon-adress"></span>
-                    <span>ADRESS:<br>
-                101, Rose Street South Lane, Edinburgh, EH2 3JG, SCOTLAND Company number:SC587986</span>
+                    <div class="itemLoc">
+                        <span>ADRESS:</span><br>
+                        <span>101, Rose Street South Lane, Edinburgh, EH2 3JG, SCOTLAND Company number:SC587986</span>
+                    </div>
                 </div>
-                <span class="icon-email"></span>
-                <span>E-mail:</span>
-                <a href="">support@onebetinvest.com </a>
+                <div class="emailFooter">
+                    <span class="icon-email"></span>
+                    <div class="itemLoc">
+                        <span>E-mail:</span><br>
+                        <a href="#">support@onebetinvest.com </a>
+                    </div>
+                </div>
             </div>
             <div class="menuFooter">
                 <ul>
@@ -518,8 +543,10 @@
                 <a href="#">Главная</a>
             </div>
         </div>
-        <!--Низ подвала-->
-        <div class="downFooter clear">
+    </div>
+    <!--Низ подвала-->
+    <div class="downFooter clear">
+        <div class="wrapperDown">
             <div class="copyright">
                 <span>Copyright © 2018 Onebetinvest.  Все права защищены.</span>
             </div>
@@ -531,7 +558,6 @@
                 <a href="#"><span class="icon-ytube"></span></a>
             </div>
         </div>
-    </div>
     </div>
 </footer>
 </body>
