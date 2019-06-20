@@ -2,8 +2,8 @@
     box-sizing: border-box;
 }
 
-body, html {
-    width: 100%;
+body {
+    width: 1920px;
     margin: 0 auto;
     font-family: "Brutal Type";
 }
@@ -35,9 +35,11 @@ ul {
     text-indent: 200%;
     white-space: nowrap;
 }
+
 button:hover, input:hover {
     opacity: 0.7;
 }
+
 .container {
     margin: 0 auto;
     width: 1170px;
@@ -110,10 +112,10 @@ header img {
     margin: 27px 380px 27px 185px;
 }
 
-/*.headerWrapper .left::before {
+.headerWrapper .left::before {
     content: '';
     display: block;
-    width: 1170px;
+    width: 1169px;
     height: 150px;
     background-color: #ffc638;
     position: absolute;
@@ -133,7 +135,7 @@ header img {
     height: 0;
     border-top: 150px solid #ffc638;
     border-right: 30px solid transparent;
-}*/
+}
 
 header .headerWrapper .left {
     position: relative;
@@ -155,9 +157,11 @@ header .headerWrapper .right {
     justify-content: space-between;
     align-items: center;
 }
+
 header .left .menuHeader {
     margin-top: 45px;
 }
+
 .menuHeader .menu li {
     display: inline-block;
 }
@@ -196,14 +200,17 @@ header .login > div + div {
 .content {
     width: 1920px;
 }
+
 .banner {
     background-color: #102831;
 }
+
 .banner .container {
     position: relative;
     height: 910px;
     background-color: #102831;
 }
+
 .banner .bgBanner {
     height: 910px;
     width: 1800px;
@@ -230,6 +237,7 @@ header .login > div + div {
     }
 
 }
+
 .banner .left {
     padding-top: 287px;
 
@@ -300,7 +308,6 @@ header .login > div + div {
     height: 55px;
     border-radius: 55px;
 }
-
 
 
 .about .right {
@@ -409,7 +416,6 @@ header .login > div + div {
 }
 
 
-
 .support .discription .blocksSup span {
     font-size: 40px;
     color: #d5efe1;
@@ -435,18 +441,22 @@ header .login > div + div {
     width: 100%;
     height: 1080px;
 }
+
 .pack {
     height: 685px;
     background-color: #102831;
 }
+
 .calculator {
     height: 395px;
- }
+}
+
 .packet .container {
     position: relative;
     height: 1080px;
     /*background-color: #102831;*/
 }
+
 .packet .bgPacket {
     height: 900px;
     width: 1800px;
@@ -459,11 +469,13 @@ header .login > div + div {
     width: 50%;
     float: left;
 }
+
 .packet .leftPack {
     width: 525px;
     height: 435px;
     margin-top: 120px;
 }
+
 .titPack span {
     font-size: 40px;
     line-height: 50px;
@@ -486,15 +498,18 @@ header .login > div + div {
     color: #ffc638;
     text-transform: uppercase;
 }
+
 .disPack {
     width: 368px;
     margin-top: 50px;
 }
+
 .disPack .itemDP > div {
     display: inline-block;
     vertical-align: middle;
     margin-top: 40px;
 }
+
 .itemDP span[class*="icon-"] {
     font-size: 40px;
     color: #ffc638;
@@ -510,12 +525,14 @@ header .login > div + div {
 .itemDP .textDP span:last-child {
     color: #fec538;
 }
+
 .packet .rightPack .upRP {
     width: 645px;
     margin-top: 120px;
     display: flex;
     justify-content: space-between;
 }
+
 .packet .rightPack .downRP {
     width: 645px;
     height: 201px;
@@ -523,6 +540,7 @@ header .login > div + div {
     display: flex;
     justify-content: space-between;
 }
+
 .rightPack button > span {
     font-size: 16px;
     line-height: 50px;
@@ -543,19 +561,23 @@ header .login > div + div {
     line-height: 50px;
     color: #ffffff;
 }
+
 .rightPack button {
     width: 187px;
     height: 200px;
     background-color: #299c53;
     border: none;
 }
+
 .packet .rightPack button + button {
     margin-left: 40px;
 }
+
 .calculator {
     background-color: #2e4349;
 }
-.packet .calculator form{
+
+.packet .calculator form {
     display: flex;
     justify-content: space-between;
     height: 310px;
@@ -567,11 +589,13 @@ header .login > div + div {
     display: flex;
     flex-direction: column;
 }
+
 .choice,
 .profit,
 .income {
     width: 390px;
 }
+
 .calculator .choice label {
     font-size: 16px;
     color: white;
@@ -579,8 +603,9 @@ header .login > div + div {
     padding-bottom: 10px;
     padding-left: 40px;
 }
+
 .calculator .choice input,
-.calculator .choice select{
+.calculator .choice select {
     width: 325px;
     height: 60px;
     background-color: #0d1f26;
@@ -599,6 +624,7 @@ header .login > div + div {
     padding-top: 55px;
     padding-bottom: 15px;
 }
+
 .calculator .profit span {
     font-size: 40px;
     line-height: 50px;
@@ -607,6 +633,7 @@ header .login > div + div {
     text-align: center;
     padding-bottom: 30px;
 }
+
 .calculator .profit input {
     font-size: 16px;
     line-height: 36px;
@@ -625,6 +652,7 @@ header .login > div + div {
     display: flex;
     justify-content: space-between;
 }
+
 .referalTit {
     width: 360px;
     height: 90px;
@@ -637,19 +665,23 @@ header .login > div + div {
     padding-left: 40px;
     padding-top: 20px;
 }
+
 .income .incomeTable {
     margin-top: 50px;
     display: table;
     width: 390px;
 }
+
 .income .incomeTable li {
     display: table-row;
     height: 20px;
 }
+
 .income .incomeTable li span {
     display: table-cell;
     vertical-align: middle;
 }
+
 .income .incomeTable li .incomeTit {
 
     padding-left: 65px;
@@ -659,6 +691,7 @@ header .login > div + div {
     text-transform: uppercase;
     color: #2baf68;
 }
+
 .income .incomeTable li .incomeSum {
     text-align: right;
     padding-right: 45px;
@@ -667,15 +700,17 @@ header .login > div + div {
     font-weight: bold;
     color: white;
 }
+
 .packet .calculator .referalList li {
     display: inline-block;
     vertical-align: middle;
 }
+
 .referalList li:first-child {
     margin-left: 32px;
 }
 
-.referalList{
+.referalList {
     width: 810px;
     height: 90px;
     background-color: #ffc638;
@@ -685,6 +720,7 @@ header .login > div + div {
     color: black;
     padding-top: 20px;
 }
+
 /*-------------------------------------*/
 .graph {
     width: 100%;
@@ -798,18 +834,22 @@ header .login > div + div {
     color: #000000;
 
 }
+
 .dis .discript .itemDiscript .greenNum {
     margin-top: 90px;
 }
-.dis .discript .itemDiscript .greenNum span{
+
+.dis .discript .itemDiscript .greenNum span {
     font-size: 18px;
     line-height: 50px;
     font-weight: bold;
     color: #2baf68;
 }
+
 .dis .discript .itemDiscript .greenNum span:last-child {
     color: white;
 }
+
 .dis .discript .itemDiscript p {
     font-size: 14px;
     line-height: 22px;
@@ -841,30 +881,36 @@ header .login > div + div {
     float: left;
     padding: 120px 0 115px 0;
 }
+
 .tableCash {
     margin-top: 60px;
     display: table;
     width: 100%;
 }
+
 .tableCash li {
     height: 15px;
     display: table-row;
 }
+
 .cashWrap .tableCash li span {
     display: table-cell;
     vertical-align: middle;
 }
+
 .cashWrap .tableCash li .nameCash {
     font-size: 15px;
     line-height: 30px;
     text-transform: none;
 }
+
 .cashWrap .tableCash li .moneyCash {
     font-size: 15px;
     line-height: 30px;
     text-transform: none;
     color: #11252d;
 }
+
 .cashWrap .tableCash li .sumCash {
     font-size: 15px;
     line-height: 30px;
@@ -872,11 +918,13 @@ header .login > div + div {
     text-transform: none;
     color: #ffb600;
 }
+
 /*---------------------------------------------------------*/
 .news {
     width: 100%;
     background-color: #f0f1f1;
 }
+
 .news .container {
     height: 741px;
 }
@@ -904,7 +952,7 @@ header .login > div + div {
     width: 560px;
     float: left;
     background-color: white;
-    box-shadow: 3px 3px 11px 0px rgba(0,0,0,0.21);
+    box-shadow: 3px 3px 11px 0px rgba(0, 0, 0, 0.21);
 }
 
 .news .item .itemNews + .itemNews {
@@ -941,11 +989,13 @@ header .login > div + div {
     font-weight: 600;
     text-transform: uppercase;
 }
+
 .news .item .itemNews .listNews {
     margin-top: 35px;
     padding-left: 30px;
     padding-right: 30px;
 }
+
 .news button a {
     font-size: 16px;
     color: #102831;
@@ -1212,7 +1262,8 @@ footer {
     width: 1920px;
     background-color: #102831;
 }
-footer .container{
+
+footer .container {
     height: 482px;
     background-color: #102831;
     position: relative;
@@ -1236,9 +1287,11 @@ footer .downFooter > div {
     width: 50%;
     float: left;
 }
+
 footer .upFooter {
     padding-top: 150px;
 }
+
 footer .upFooter img {
     height: 206px;
     width: 161px;
@@ -1288,25 +1341,29 @@ footer .menuFooter a {
     display: flex;
     flex-direction: row;
 }
+
 .adressFooter {
     padding-bottom: 45px;
 }
+
 .itemLoc {
     width: 236px;
     padding-left: 15px;
 }
+
 .wrapperDown {
     width: 1170px;
     height: 45px;
     margin: 0 auto;
 }
+
 footer .downFooter {
 
     background-color: white;
 
 }
 
-.downFooter .copyright span{
+.downFooter .copyright span {
     margin-top: 17px;
     line-height: 24px;
     font-size: 14px;
