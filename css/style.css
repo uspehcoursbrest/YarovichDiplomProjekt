@@ -3,7 +3,6 @@
 }
 
 body {
-    width: 1920px;
     margin: 0 auto;
     font-family: "Brutal Type";
 }
@@ -46,7 +45,7 @@ button:hover, input:hover {
 }
 
 header {
-    width: 1920px;
+    width: 100%;
     height: 110px;
     background-color: #ffffff;
 }
@@ -198,7 +197,7 @@ header .login > div + div {
 
 /*------------------------------------------------------*!*/
 .content {
-    width: 1920px;
+
 }
 
 .banner {
@@ -207,15 +206,14 @@ header .login > div + div {
 
 .banner .container {
     position: relative;
-
-
 }
 
 .banner .bgBanner {
     height: 910px;
-    width: 1920px;
+    width: 100%;
     position: absolute;
     animation: blink 3s infinite;
+    background-repeat: no-repeat;
 }
 
 @keyframes blink {
@@ -341,7 +339,7 @@ header .login > div + div {
 
 /*----------------------------------*/
 .support {
-    width: 100%;
+
     height: 690px;
 }
 
@@ -352,12 +350,14 @@ header .login > div + div {
     position: relative;
     background-color: #102831;
 }
+
 .discription .bgBanner {
     height: 570px;
     width: 990px;
     position: absolute;
     animation: blink 3s infinite;
 }
+
 .support .discription .titSup {
     height: 340px;
     width: 585px;
@@ -443,7 +443,7 @@ header .login > div + div {
 
 /*-------------------------------------*/
 .packet {
-    width: 100%;
+
     height: 1080px;
     background-color: #102831;
 }
@@ -464,9 +464,10 @@ header .login > div + div {
 
 .packet .bgBanner {
     height: 1080px;
-    width: 1920px;
+    width: 100%;
     position: absolute;
     animation: blink 3s infinite;
+    background-repeat: no-repeat;
 }
 
 .packet .itemPack {
@@ -727,7 +728,7 @@ header .login > div + div {
 
 /*-------------------------------------*/
 .graph {
-    width: 100%;
+
     height: 620px;
 }
 
@@ -785,10 +786,10 @@ header .login > div + div {
 
 .dis .bgBanner {
     height: 490px;
-    width: 1920px;
+    width: 100%;
     position: absolute;
     animation: blink 3s infinite;
-
+    background-repeat: no-repeat;
 }
 
 .dis .discript {
@@ -862,7 +863,7 @@ header .login > div + div {
 
 /*--------------------------------------------------*/
 .cash {
-    width: 100%;
+
 }
 
 .cash p {
@@ -924,7 +925,7 @@ header .login > div + div {
 
 /*---------------------------------------------------------*/
 .news {
-    width: 100%;
+
     background-color: #f0f1f1;
 }
 
@@ -1029,7 +1030,7 @@ header .login > div + div {
 /*Вторая страница*/
 .bannerContacts {
     height: 330px;
-    width: 1920px;
+
 }
 
 .bannerContacts .bgContacts {
@@ -1262,7 +1263,7 @@ span:nth-child(4) {
 
 /*FOOTER*/
 footer {
-    width: 1920px;
+
     background-color: #102831;
 }
 
@@ -1373,15 +1374,55 @@ footer .downFooter {
     color: #102831;
 }
 
-@media (max-width: 1439px) {
-
-
-}
-
 @media (max-width: 1199px) {
+    .container {
+        margin: 0 auto;
+        width: 1100px;
+    }
 
+    .headerWrapper .left::before {
+        left: -424px;
+    }
 
+    .calculator .profit input {
+        margin-left: 50px;
+    }
+
+    .referalList {
+        font-size: 28px;
+    }
+
+    .graph .graphWrap .graphImg {
+        width: 60%;
+        height: 405px;
+        float: left;
+        padding: 117px 0 110px 0;
+    }
+
+    .dis .discript {
+        display: flex;
+        justify-content: space-between;
+        width: 1100px;
+        padding-top: 120px;
+    }
+
+    .news .caption > div {
+        width: 30%;
+    }
+
+    .news .item .itemNews {
+        width: 500px;
+    }
+
+    .news .item .itemNews + .itemNews {
+        margin-left: 100px;
+    }
+
+    .news .caption .titBtn {
+        margin: 135px 0 65px 555px;
+    }
 }
+
 
 @media (max-width: 991px) {
 
@@ -1392,11 +1433,11 @@ footer .downFooter {
 
 
 }
+
 @media (max-width: 479px) {
 
 
 }
-
 
 
 
