@@ -1,4 +1,4 @@
-* {
+*, *:before, *:after {
     box-sizing: border-box;
 }
 
@@ -202,20 +202,19 @@ header .login > div + div {
 }
 
 .banner {
-    background-color: #102831;
+    height: 910px;
 }
 
 .banner .container {
     position: relative;
-    height: 910px;
-    background-color: #102831;
+
+
 }
 
 .banner .bgBanner {
     height: 910px;
-    width: 1800px;
+    width: 1920px;
     position: absolute;
-    left: -375px;
     animation: blink 3s infinite;
 }
 
@@ -343,8 +342,9 @@ header .login > div + div {
 /*----------------------------------*/
 .support {
     width: 100%;
-    height: 695px;
+    height: 690px;
 }
+
 
 .support .discription {
     width: 990px;
@@ -352,7 +352,12 @@ header .login > div + div {
     position: relative;
     background-color: #102831;
 }
-
+.discription .bgBanner {
+    height: 570px;
+    width: 990px;
+    position: absolute;
+    animation: blink 3s infinite;
+}
 .support .discription .titSup {
     height: 340px;
     width: 585px;
@@ -440,11 +445,12 @@ header .login > div + div {
 .packet {
     width: 100%;
     height: 1080px;
+    background-color: #102831;
 }
 
 .pack {
     height: 685px;
-    background-color: #102831;
+
 }
 
 .calculator {
@@ -454,14 +460,12 @@ header .login > div + div {
 .packet .container {
     position: relative;
     height: 1080px;
-    /*background-color: #102831;*/
 }
 
-.packet .bgPacket {
-    height: 900px;
-    width: 1800px;
+.packet .bgBanner {
+    height: 1080px;
+    width: 1920px;
     position: absolute;
-    left: -375px;
     animation: blink 3s infinite;
 }
 
@@ -774,16 +778,15 @@ header .login > div + div {
 
 /*-------------------------------------------*/
 .dis {
-    width: 100%;
     height: 490px;
     background-color: #102831;
+
 }
 
-.dis .bgDis {
+.dis .bgBanner {
     height: 490px;
-    width: 1800px;
+    width: 1920px;
     position: absolute;
-    left: -375px;
     animation: blink 3s infinite;
 
 }
@@ -1370,9 +1373,29 @@ footer .downFooter {
     color: #102831;
 }
 
+@media (max-width: 1439px) {
 
 
+}
 
+@media (max-width: 1199px) {
+
+
+}
+
+@media (max-width: 991px) {
+
+
+}
+
+@media (max-width: 767px) {
+
+
+}
+@media (max-width: 479px) {
+
+
+}
 
 
 
