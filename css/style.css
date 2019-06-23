@@ -3,6 +3,7 @@
 }
 
 body {
+    width: 1920px;
     margin: 0 auto;
     font-family: "Brutal Type";
 }
@@ -43,7 +44,7 @@ button:hover, input:hover {
     margin: 0 auto;
     width: 1170px;
 }
-
+/*HEADER*/
 header {
     width: 100%;
     height: 110px;
@@ -85,12 +86,14 @@ header .time {
     background-color: #2baf68;
     font-size: 20px;
     color: #ffffff;
-    text-align: left;
+    text-align: center;
 }
 
 header .time span {
-    width: 20px;
-    height: 20px;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: bold;
+
 }
 
 header .time p {
@@ -196,11 +199,9 @@ header .login > div + div {
 }
 
 /*------------------------------------------------------*!*/
-.content {
-
-}
 
 .banner {
+    width: 1920px;
     height: 910px;
 }
 
@@ -270,6 +271,7 @@ header .login > div + div {
 
 /*---------------------------------------------------------*/
 .about {
+    width: 1920px;
     height: 450px;
     width: 100%;
 }
@@ -339,7 +341,7 @@ header .login > div + div {
 
 /*----------------------------------*/
 .support {
-
+    width: 1920px;
     height: 690px;
 }
 
@@ -443,7 +445,7 @@ header .login > div + div {
 
 /*-------------------------------------*/
 .packet {
-
+    width: 1920px;
     height: 1080px;
     background-color: #102831;
 }
@@ -728,7 +730,7 @@ header .login > div + div {
 
 /*-------------------------------------*/
 .graph {
-
+    width: 1920px;
     height: 620px;
 }
 
@@ -779,6 +781,7 @@ header .login > div + div {
 
 /*-------------------------------------------*/
 .dis {
+    width: 1920px;
     height: 490px;
     background-color: #102831;
 
@@ -863,6 +866,7 @@ header .login > div + div {
 
 /*--------------------------------------------------*/
 .cash {
+    width: 1920px;
 
 }
 
@@ -925,7 +929,7 @@ header .login > div + div {
 
 /*---------------------------------------------------------*/
 .news {
-
+    width: 1920px;
     background-color: #f0f1f1;
 }
 
@@ -1029,6 +1033,7 @@ header .login > div + div {
 
 /*Вторая страница*/
 .bannerContacts {
+    width: 1920px;
     height: 330px;
 
 }
@@ -1050,6 +1055,7 @@ header .login > div + div {
 
 /*----------------------*/
 .department {
+    width: 1920px;
     height: 710px;
 }
 
@@ -1130,6 +1136,7 @@ header .login > div + div {
 }
 
 .map {
+    width: 1920px;
     height: 850px;
 }
 
@@ -1191,6 +1198,7 @@ span:nth-child(4) {
 }
 
 .question {
+    width: 1920px;
     height: 520px;
 }
 
@@ -1259,6 +1267,32 @@ span:nth-child(4) {
     line-height: 110px;
     color: #2baf68;
     font-weight: bold;
+}
+/*SLIDER*/
+#slides {
+    position: relative;
+    height: 360px;
+    margin-bottom: 850px;
+}
+
+.slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1920px;
+    height: 360px;
+    opacity: 0;
+    z-index: 1;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+.slide.showing {
+    opacity: 1;
+    z-index: 2;
 }
 
 /*FOOTER*/
