@@ -410,7 +410,7 @@ header .login > div + div {
     right: -185px;
 }
 
-.support .discription .blckSup {
+.support .discription .wrapSup {
     height: 390px;
     width: 245px;
     margin-top: 50px;
@@ -418,10 +418,12 @@ header .login > div + div {
     margin-bottom: 45px;
 }
 
-.support .discription .blckSup a:hover {
+.support .discription .blockSup:hover a {
     color: #000000;
 }
-
+.support .discription .blockSup:hover span {
+    color: #000000;
+}
 
 .support .discription .blocksSup span {
     font-size: 40px;
