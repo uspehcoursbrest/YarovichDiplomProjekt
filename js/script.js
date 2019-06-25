@@ -13,10 +13,12 @@ window.onload = function () {
     }
 
     var timer;
+
     function clockStart() {
         timer = setInterval(clock, 1000);
         clock()
     }
+
     clockStart()
 
     var slides = document.querySelectorAll('#slides .slide');
@@ -25,9 +27,10 @@ window.onload = function () {
 
     function nextSlide() {
         slides[currentSlide].className = 'slide';
-        currentSlide = (currentSlide + 1)%slides.length;
+        currentSlide = (currentSlide + 1) % slides.length;
         slides[currentSlide].className = 'slide showing';
     }
 
-
 }
+
+
