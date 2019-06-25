@@ -3,10 +3,11 @@
     box-sizing: border-box;
 }
 
-body {
+body, html {
     width: 1920px;
     margin: 0 auto;
     font-family: "Brutal Type";
+    margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -47,7 +48,7 @@ button:hover, input:hover {
 }
 /*HEADER*/
 header {
-    width: 100%;
+    width: 1920px;
     height: 110px;
     background-color: #ffffff;
 }
@@ -200,23 +201,20 @@ header .login > div + div {
 }
 
 /*------------------------------------------------------*!*/
-
+.content {
+    width: 1920px;
+}
 .banner {
     width: 1920px;
     height: 910px;
+    background-image: url(../img/png/banner.png);
+    animation: blink 3s infinite;
 }
 
 .banner .container {
     position: relative;
 }
 
-.banner .bgBanner {
-    height: 910px;
-    width: 100%;
-    position: absolute;
-    animation: blink 3s infinite;
-    background-repeat: no-repeat;
-}
 
 @keyframes blink {
     0% {
@@ -352,12 +350,7 @@ header .login > div + div {
     height: 573px;
     position: relative;
     background-color: #102831;
-}
-
-.discription .bgBanner {
-    height: 570px;
-    width: 990px;
-    position: absolute;
+    background-image: url(../img/png/support.png);
     animation: blink 3s infinite;
 }
 
@@ -451,11 +444,11 @@ header .login > div + div {
     width: 1920px;
     height: 1080px;
     background-color: #102831;
+    background-image: url(../img/png/packet.png);
 }
 
 .pack {
     height: 685px;
-
 }
 
 .calculator {
@@ -467,13 +460,6 @@ header .login > div + div {
     height: 1080px;
 }
 
-.packet .bgBanner {
-    height: 1080px;
-    width: 100%;
-    position: absolute;
-    animation: blink 3s infinite;
-    background-repeat: no-repeat;
-}
 
 .packet .itemPack {
     width: 50%;
@@ -571,12 +557,15 @@ header .login > div + div {
     line-height: 50px;
     color: #ffffff;
 }
-
+.rightPack button:hover {
+    background-color: #ffb600;
+}
 .rightPack button {
     width: 187px;
     height: 200px;
     background-color: #299c53;
     border: none;
+    opacity: 1;
 }
 
 .packet .rightPack button + button {
@@ -585,6 +574,8 @@ header .login > div + div {
 
 .calculator {
     background-color: #2e4349;
+    box-shadow: 3px 3px 21px 0px rgba(0,0,0,0.11);
+    opacity: 0.93;
 }
 
 .packet .calculator form {
@@ -787,15 +778,8 @@ header .login > div + div {
     width: 1920px;
     height: 490px;
     background-color: #102831;
+    background-image: url(../img/png/about.png);
 
-}
-
-.dis .bgBanner {
-    height: 490px;
-    width: 100%;
-    position: absolute;
-    animation: blink 3s infinite;
-    background-repeat: no-repeat;
 }
 
 .dis .discript {
@@ -934,6 +918,7 @@ header .login > div + div {
 .news {
     width: 1920px;
     background-color: #f0f1f1;
+    height: 741px;
 }
 
 .news .container {
@@ -1038,14 +1023,8 @@ header .login > div + div {
 .bannerContacts {
     width: 1920px;
     height: 330px;
-
+    background-image:url(../img/jpg/contacts.jpg);
 }
-
-.bannerContacts .bgContacts {
-    height: 330px;
-    width: 1920px;
-}
-
 
 .bannerContacts .titContacts {
     font-size: 90px;
