@@ -31,6 +31,19 @@ window.onload = function () {
         slides[currentSlide].className = 'slide showing';
     }
 
+    $('.blockSup').click(function () {
+        if ($(this).attr('supType') == 1) {
+            $('.blockSup-rate[supType="1"]').addClass('activeSup');
+        } else if ($(this).attr('supType') == 2) {
+            $('.blockSup-rate[supType="2"]').addClass('activeSup');
+        }
+        if ($(this).attr('supType') == 5) {
+            $('.blockSup-rate[supType="5"]').addClass('activeSup');
+        }
+
+    })
+
+
 }
 
 

@@ -439,6 +439,12 @@ header .login > div + div {
     color: #d5efe1;
 }
 
+.activeSup {
+    display: block;
+}
+
+
+
 /*-------------------------------------*/
 .packet {
     width: 1920px;
