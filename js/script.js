@@ -33,16 +33,47 @@ window.onload = function () {
 
     $('.blockSup').click(function () {
         if ($(this).attr('supType') == 1) {
-            $('.blockSup-rate[supType="1"]').addClass('activeSup');
+            $('.blockSup-rate[supType="1"]').css('display', 'block') &&
+            $('.blockSup-rate[supType="1"]').siblings('.titSup').css('display', 'none');
         } else if ($(this).attr('supType') == 2) {
-            $('.blockSup-rate[supType="2"]').addClass('activeSup');
+            $('.blockSup-rate[supType="2"]').css('display', 'block') &&
+            $('.blockSup-rate[supType="2"]').siblings('.titSup').css('display', 'none');
+        } else if ($(this).attr('supType') == 3) {
+            $('.blockSup-rate[supType="3"]').css('display', 'block') &&
+            $('.blockSup-rate[supType="3"]').siblings('.titSup').css('display', 'none');
+        } else if ($(this).attr('supType') == 4) {
+            $('.blockSup-rate[supType="4"]').css('display', 'block') &&
+            $('.blockSup-rate[supType="4"]').siblings('.titSup').css('display', 'none');
+        } else if ($(this).attr('supType') == 5) {
+            $('.blockSup-rate[supType="5"]').css('display', 'block') &&
+            $('.blockSup-rate[supType="5"]').siblings('.titSup').css('display', 'none');
+        } else if ($(this).attr('supType') == 6) {
+            $('.blockSup-rate[supType="6"]').css('display', 'block') &&
+            $('.blockSup-rate[supType="6"]').siblings('.titSup').css('display', 'none');
         }
-        if ($(this).attr('supType') == 5) {
-            $('.blockSup-rate[supType="5"]').addClass('activeSup');
-        }
-
     })
 
+    $('.itemPack  button').click(function () {
+        if ($(this).attr('packType') == 1) {
+            $('.packSup-rate[packType = "1"]').css('display', 'block') &&
+            $('.packSup-rate[packType = "1"]').siblings('.disPack').css('display', 'none');
+        } else if ($(this).attr('packType') == 2) {
+            $('.packSup-rate[packType = "2"]').css('display', 'block') &&
+            $('.packSup-rate[packType = "2"]').siblings('.disPack').css('display', 'none');
+        } else if ($(this).attr('packType') == 3) {
+            $('.packSup-rate[packType = "3"]').css('display', 'block') &&
+            $('.packSup-rate[packType = "3"]').siblings('.disPack').css('display', 'none');
+        } else if ($(this).attr('packType') == 4) {
+            $('.packSup-rate[packType = "4"]').css('display', 'block') &&
+            $('.packSup-rate[packType = "4"]').siblings('.disPack').css('display', 'none');
+        } else if ($(this).attr('packType') == 5) {
+            $('.packSup-rate[packType = "5"]').css('display', 'block') &&
+            $('.packSup-rate[packType = "5"]').siblings('.disPack').css('display', 'none');
+        } else if ($(this).attr('packType') == 6) {
+            $('.packSup-rate[packType = "6"]').css('display', 'block') &&
+            $('.packSup-rate[packType = "6"]').siblings('.disPack').css('display', 'none');
+        }
+    })
 
 }
 

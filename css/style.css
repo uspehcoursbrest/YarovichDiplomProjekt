@@ -355,6 +355,7 @@ header .login > div + div {
 }
 
 .support .discription .titSup {
+    display: none;
     height: 340px;
     width: 585px;
     padding-top: 145px;
@@ -412,7 +413,7 @@ header .login > div + div {
     margin-bottom: 45px;
 }
 
-.support .discription .blockSup:hover a {
+.support .discription .blockSup:hover p {
     color: #000000;
 }
 .support .discription .blockSup:hover span {
@@ -432,16 +433,13 @@ header .login > div + div {
     padding-bottom: 20px;
 }
 
-.support a {
+.support .blockSup p {
     font-size: 18px;
     font-weight: bold;
-    text-decoration: none;
     color: #d5efe1;
 }
 
-.activeSup {
-    display: block;
-}
+
 
 
 
@@ -502,6 +500,7 @@ header .login > div + div {
 }
 
 .disPack {
+    display: none;
     width: 368px;
     margin-top: 50px;
 }
