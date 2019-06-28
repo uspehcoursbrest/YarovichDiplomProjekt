@@ -75,6 +75,14 @@ window.onload = function () {
         }
     })
 
+    $('.newsSlides').owlCarousel({
+        items: 2,
+        nav: true,
+        navText: [" ", " "]
+    }
+
+   )
+
 }
 
 

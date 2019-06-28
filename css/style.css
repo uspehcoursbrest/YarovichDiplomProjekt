@@ -949,12 +949,16 @@ header .login > div + div {
     margin: 135px 0 65px 355px;
 }
 
-.news .item .itemNews {
+.news .item .newsSlides .itemNews {
     width: 560px;
     float: left;
     background-color: white;
     box-shadow: 3px 3px 11px 0px rgba(0, 0, 0, 0.21);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
 
 .news .item .itemNews + .itemNews {
     margin-left: 50px;
@@ -1023,7 +1027,28 @@ header .login > div + div {
     background-repeat: no-repeat;
     background-position: center;
 }
+.newsSlides .owl-nav {
+    text-align: center;
+}
+.newsSlides .owl-nav > button[class*="owl"] {
+    width: 55px;
+    height: 20px;
+    font-weight: bold;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 40px;
 
+}
+
+.newsSlides .owl-nav  button.owl-prev {
+    background-image: url("../img/svg/30.svg");
+   margin-right: 45px;
+}
+.newsSlides .owl-nav  button.owl-next {
+    background-image: url("../img/svg/29.svg");
+    margin-left: 10px;
+}
 /*Вторая страница*/
 .bannerContacts {
     width: 1920px;

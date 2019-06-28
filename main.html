@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,10 +10,16 @@
     <link rel="stylesheet" href="fonts/icomoon/style.css">
 
     <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/selectric.css">
+    <link rel="stylesheet" href="css/highcharts.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/style.css">
 
-    <script src="js/owl.carousel.js"></script>
     <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/jquery.selectric.js"></script>
+    <script src="js/highcharts.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
     <script src="js/script.js"></script>
 
 </head>
@@ -423,6 +429,23 @@
                             <span>24 300$</span>
                         </button>
                     </div>
+                    <div class="slideRP">
+                        <button class="btnLuxury packType4" packType="4">
+                            <span class="icon-ball4"></span><br>
+                            <span>LUXURY</span><br>
+                            <span>2 700$</span>
+                        </button>
+                        <button class="btnPremium packType5" packType="5">
+                            <span class="icon-ball5"></span><br>
+                            <span>PREMIUM</span><br>
+                            <span>8 100$</span>
+                        </button>
+                        <button class="btnExclusive packType6" packType="6">
+                            <span class="icon-ball6"></span><br>
+                            <span>EXCLUSIVE</span><br>
+                            <span>24 300$</span>
+                        </button>
+                    </div>
                 </div>
             </div>
             <div class="calculator">
@@ -678,45 +701,51 @@
                     <a href="">все новости</a>
                 </button>
             </div>
-            <div class="item clear">
-                <div class="itemNews">
-                    <div class="listNews">
-                        <input type="date">
-                        <p>Еженедельное изменение процента распределения на Onebetinvest!</p>
+            <div class="item  clear">
+                <div class="newsSlides owl-carousel">
+                    <div class="itemNews">
+                        <div class="listNews">
+                            <input type="date">
+                            <p>Еженедельное изменение процента распределения на Onebetinvest!</p>
+                        </div>
+                        <div class="newsImage" style="background-image: url(img/jpg/news1.jpg);"></div>
                     </div>
-                    <div class="newsImage" style="background-image: url(img/jpg/news1.jpg);"></div>
-                </div>
-                <div class="itemNews">
-                    <div class="listNews">
-                        <input type="date">
-                        <p>Платежные системы Visa / MasterCard доступны для покупки пакетов!</p>
+                    <div class="itemNews">
+                        <div class="listNews">
+                            <input type="date">
+                            <p>Платежные системы Visa / MasterCard доступны для покупки пакетов!</p>
+                        </div>
+                        <div class="newsImage" style="background-image: url(img/jpg/news2.jpg);"></div>
                     </div>
-                    <div class="newsImage" style="background-image: url(img/jpg/news2.jpg);"></div>
+                    <div class="itemNews">
+                        <div class="listNews">
+                            <input type="date">
+                            <p>Присоединяйся к OnebetInvest!</p>
+                        </div>
+                        <div class="newsImage" style="background-image: url(img/jpg/news2.jpg);"></div>
+                    </div>
                 </div>
             </div>
-            <!--<div class="arrow">
-                     <span class="icon-arrowL"></span>
-                     <span class="icon-arrowR"></span>
-            </div>-->
         </div>
     </div>
 </div>
+
 <!--СЛАЙДЕР-->
-<div class="slider" id="slides">
-    <div class="slide showing" style="background-image: url(img/png/1.png)"></div>
-    <div class="slide" style="background-image: url(img/png/2.png)"></div>
-    <div class="slide" style="background-image: url(img/png/3.png)"></div>
-    <div class="slide" style="background-image: url(img/png/4.png)"></div>
-    <div class="slide" style="background-image: url(img/png/5.png)"></div>
-    <div class="slide" style="background-image: url(img/png/6.png)"></div>
-    <div class="slide" style="background-image: url(img/png/7.png)"></div>
-    <div class="slide" style="background-image: url(img/png/8.png)"></div>
-    <div class="slide" style="background-image: url(img/png/9.png)"></div>
-    <div class="slide" style="background-image: url(img/png/10.png)"></div>
-    <div class="slide" style="background-image: url(img/png/11.png)"></div>
-    <div class="slide" style="background-image: url(img/png/12.png)"></div>
-    <div class="slide" style="background-image: url(img/png/13.png)"></div>
-</div>
+<!--        <div class="slider" id="slides">-->
+<!--            <div class="slide showing" style="background-image: url(img/png/1.png)"></div>-->
+<!--            <div class="slide" style="background-image: url(img/png/2.png)"></div>-->
+<!--            <div class="slide" style="background-image: url(img/png/3.png)"></div>-->
+<!--            <div class="slide" style="background-image: url(img/png/4.png)"></div>-->
+<!--            <div class="slide" style="background-image: url(img/png/5.png)"></div>-->
+<!--            <div class="slide" style="background-image: url(img/png/6.png)"></div>-->
+<!--            <div class="slide" style="background-image: url(img/png/7.png)"></div>-->
+<!--            <div class="slide" style="background-image: url(img/png/8.png)"></div>-->
+<!--            <div class="slide" style="background-image: url(img/png/9.png)"></div>-->
+<!--            <div class="slide" style="background-image: url(img/png/10.png)"></div>-->
+<!--            <div class="slide" style="background-image: url(img/png/11.png)"></div>-->
+<!--            <div class="slide" style="background-image: url(img/png/12.png)"></div>-->
+<!--            <div class="slide" style="background-image: url(img/png/13.png)"></div>-->
+<!--        </div>-->
 <!--Подвал-->
 <footer>
     <div class="container">
