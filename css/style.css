@@ -89,13 +89,15 @@ header .time {
     background-color: #2baf68;
     font-size: 20px;
     color: #ffffff;
-    text-align: center;
+
+
 }
 
 header .time span {
     font-size: 20px;
     line-height: 36px;
     font-weight: bold;
+    margin-left: -15px;
 
 }
 
@@ -116,7 +118,9 @@ header img {
     width: 168px;
     margin: 27px 380px 27px 185px;
 }
-
+.headerWrapper {
+    overflow: hidden;
+}
 .headerWrapper .left::before {
     content: '';
     display: block;
@@ -189,18 +193,30 @@ header .login > div + div {
     display: flex;
     justify-content: space-between;
     width: 215px;
-}
 
+}
+.social > div {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #102831;
+    text-align: center;
+    padding-top: 5px;
+}
 .social a {
     text-decoration: none;
 }
 
 .social span {
+    margin-top: 10px;
     font-size: 20px;
-    border: 1px solid #102831;
-    border-radius: 50%;
+    /*border: 1px solid #102831;*/
+    /*border-radius: 50%;*/
+    color: black;
 }
-
+.activeMenu {
+    text-decoration: underline;
+}
 /*------------------------------------------------------*!*/
 .content {
     width: 1920px;
@@ -1464,19 +1480,12 @@ footer .menuFooter a {
     height: 45px;
     margin: 0 auto;
 }
-
-footer .downFooter {
-
-    background-color: white;
-
+.wrapperDown > div {
+    width: 50%;
+    float: left;
 }
 
-.downFooter .copyright span {
-    margin-top: 17px;
-    line-height: 24px;
-    font-size: 14px;
-    color: #102831;
-}
+
 
 @media (max-width: 1199px) {
     .container {

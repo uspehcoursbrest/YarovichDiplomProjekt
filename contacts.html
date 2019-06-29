@@ -13,22 +13,22 @@
 </head>
 <body>
 <!--Шапка-->
-<header>
-    <div class="container">
-        <div class="headerWrapper clear">
+<header class="clear">
+    <div class="headerWrapper ">
+        <div class="container">
             <!--Левая часть-->
-            <div class="left">
+            <div class="left clear">
                 <div class="leftUp">
                     <div class="social">
-                        <a href=""><span class="icon-soc1"></span></a>
-                        <a href=""><span class="icon-soc2"></span></a>
-                        <a href=""><span class="icon-soc3"></span></a>
-                        <a href=""><span class="icon-soc4"></span></a>
-                        <a href=""><span class="icon-ytube"></span></a>
+                        <div><a href=""><span class="icon-soc1"></span></a></div>
+                        <div><a href=""><span class="icon-soc2"></span></a></div>
+                        <div><a href=""><span class="icon-soc3"></span></a></div>
+                        <div><a href=""><span class="icon-soc4"></span></a></div>
+                        <div><a href=""><span class="icon-ytube"></span></a></div>
                     </div>
                     <div class="time">
                         <span class="icon-clock"> </span>
-                        <p>20:45:39</p>
+                        <span class="timer" id="timer">20:45:39</span>
                     </div>
                     <div class="login">
                         <div class="loginEnter">
@@ -48,12 +48,12 @@
                         <li><a href="">Карьера</a></li>
                         <li><a href="">Инвестиции</a></li>
                         <li><a href="">Новости</a></li>
-                        <li><a href="contacts.html">Контакты</a></li>
+                        <li class="activeMenu"><a href="contacts.html">Контакты</a></li>
                     </ul>
                 </div>
             </div>
             <!--Правая часть-->
-            <div class="right invisLink">
+            <div class="right invisLink clear">
                 <a href="main.html">Главная</a>
                 <img class="logoHeader" src="img/png/betinvest.png"/>
             </div>
@@ -62,7 +62,7 @@
 </header>
 <!--КОНТЕНТ-->
 <div class="content">
-    <!--    Баннер-->
+    <!--Баннер-->
     <div class="bannerContacts">
         <div class="bgContacts" style="background-image: url(img/jpg/contacts.jpg)">
             <div class="container">
@@ -75,46 +75,46 @@
     <div class="department">
         <div class="container">
             <div class="itemDep">
-            <div class="depItem clear">
-                <div class="depTit">
-                    <p>ДЕПАРТАМЕНТ</p>
-                    <span>ПО РАБОТЕ С КЛИЕНТАМ</span>
-                </div>
-                <div class="grafik">
-                    <div class="depList">
-                        <span class="icon-clock"></span>
-                        <span>ПН-ПТ, 11:00 ДО 19:00 (UTC+1)</span>
+                <div class="depItem clear">
+                    <div class="depTit">
+                        <p>ДЕПАРТАМЕНТ</p>
+                        <span>ПО РАБОТЕ С КЛИЕНТАМ</span>
                     </div>
-                    <div class="depList">
-                        <span class="icon-clock"></span>
-                        <a class="phone" href="">+7 499 609-13-36</a>
-                    </div>
-                    <div class="depList">
-                        <span class="icon-email"></span>
-                        <a href="">support@onebetinvest.com </a>
-                        <p>Перед обращением в поддержку заранее подготовьте
-                            ID аккаунта. (ID указан в личном кабинете и в регистрационном письме)</p>
-                    </div>
-                </div>
-            </div>
-            <div class="depItem clear">
-                <div class="depTit">
-                    <p>ДЕПАРТАМЕНТ</p>
-                    <span>ТЕХНИЧЕСКОЙ ПОДДЕРЖКИ</span>
-                </div>
-                <div class="grafik">
-                    <div class="depList">
-                        <span class="icon-clock"></span>
-                        <span>ПН-ПТ, 11:00 ДО 23:00 (UTC+1)</span>
-                    </div>
-                    <div class="depList">
-                        <span class="icon-email"></span>
-                        <a href="">support@onebetinvest.com </a>
-                        <p>Перед обращением в поддержку заранее подготовьте
-                            ID аккаунта. (ID указан в личном кабинете и в регистрационном письме)</p>
+                    <div class="grafik">
+                        <div class="depList">
+                            <span class="icon-clock"></span>
+                            <span>ПН-ПТ, 11:00 ДО 19:00 (UTC+1)</span>
+                        </div>
+                        <div class="depList">
+                            <span class="icon-clock"></span>
+                            <a class="phone" href="">+7 499 609-13-36</a>
+                        </div>
+                        <div class="depList">
+                            <span class="icon-email"></span>
+                            <a href="">support@onebetinvest.com </a>
+                            <p>Перед обращением в поддержку заранее подготовьте
+                                ID аккаунта. (ID указан в личном кабинете и в регистрационном письме)</p>
+                        </div>
                     </div>
                 </div>
-            </div>
+                <div class="depItem clear">
+                    <div class="depTit">
+                        <p>ДЕПАРТАМЕНТ</p>
+                        <span>ТЕХНИЧЕСКОЙ ПОДДЕРЖКИ</span>
+                    </div>
+                    <div class="grafik">
+                        <div class="depList">
+                            <span class="icon-clock"></span>
+                            <span>ПН-ПТ, 11:00 ДО 23:00 (UTC+1)</span>
+                        </div>
+                        <div class="depList">
+                            <span class="icon-email"></span>
+                            <a href="">support@onebetinvest.com </a>
+                            <p>Перед обращением в поддержку заранее подготовьте
+                                ID аккаунта. (ID указан в личном кабинете и в регистрационном письме)</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -123,18 +123,18 @@
             <div class="mapIn">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d19601.29487446161!2d26.126242299999998!3d52.1131837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sby!4v1560418713714!5m2!1sru!2sby"
                         frameborder="0" style="border:0" allowfullscreen></iframe>
-            <div class="mapAdress">
-                <div class="location">
-                    <span class="icon-adress"></span>
-                    <span>our Adress:</span>
-                    <p>101, Rose Street South Lane, Edinburgh, EH2 3JG, SCOTLAND</p>
+                <div class="mapAdress">
+                    <div class="location">
+                        <span class="icon-adress"></span>
+                        <span>our Adress:</span>
+                        <p>101, Rose Street South Lane, Edinburgh, EH2 3JG, SCOTLAND</p>
+                    </div>
+                    <div class="companyNum">
+                        <span class="icon-num"></span>
+                        <span>Company number:</span>
+                        <p>SC587986</p>
+                    </div>
                 </div>
-                <div class="companyNum">
-                    <span class="icon-num"></span>
-                    <span>Company number:</span>
-                    <p>SC587986</p>
-                </div>
-            </div>
             </div>
         </div>
     </div>
@@ -171,23 +171,31 @@
 </div>
 <!--ФУТЕР-->
 <footer>
-    <div class="container">
-        <!--Майнинг картинка-->
+    <div class="container clear">
+        <!--        &lt;!&ndash;Майнинг картинка-->
         <div class="miningLogo">
             <img src="img/png/mining2.png" height="209" width="1208"/>
         </div>
         <!--Верх подвала-->
-        <div class="upFooter">
+        <div class="upFooter clear">
             <div class="sert">
                 <img src="img/jpg/sert.jpg"/>
             </div>
             <div class="location">
-                <span class="icon-adress"></span>
-                <p>ADRESS:</p><br>
-                <p>101, Rose Street South Lane, Edinburgh, EH2 3JG, SCOTLAND Company number:SC587986</p>
-                <span class="icon-email"></span>
-                <p>E-mail:</p>
-                <a href="">support@onebetinvest.com </a>
+                <div class="adressFooter">
+                    <span class="icon-adress"></span>
+                    <div class="itemLoc">
+                        <span>ADRESS:</span><br>
+                        <span>101, Rose Street South Lane, Edinburgh, EH2 3JG, SCOTLAND Company number:SC587986</span>
+                    </div>
+                </div>
+                <div class="emailFooter">
+                    <span class="icon-email"></span>
+                    <div class="itemLoc">
+                        <span>E-mail:</span><br>
+                        <a href="#">support@onebetinvest.com </a>
+                    </div>
+                </div>
             </div>
             <div class="menuFooter">
                 <ul>
@@ -199,24 +207,25 @@
                     <li><a href="">Контакты</a></li>
                 </ul>
             </div>
-            <div class="logoFooter">
+            <div class="logoFooter invisLink">
                 <img src="img/png/betinvest2.png"/>
-            </div>
-        </div>
-        <!--Низ подвала-->
-        <div class="downFooter">
-            <div class="copyright">
-                <span>Copyright © 2018 Onebetinvest.  Все права защищены.</span>
-            </div>
-            <div class="social">
-                <a href=""><span class="icon-soc1"></span></a>
-                <a href=""><span class="icon-soc2"></span></a>
-                <a href=""><span class="icon-soc3"></span></a>
-                <a href=""><span class="icon-soc4"></span></a>
-                <a href=""><span class="icon-ytube"></span></a>
+                <a href="#">Главная</a>
             </div>
         </div>
     </div>
+    <!--Низ подвала-->
+
+    <div class="wrapperDown clear">
+        <div class="copyright">
+            <span>Copyright © 2018 Onebetinvest.  Все права защищены.</span>
+        </div>
+        <div class="social">
+            <div><a href="#"><span class="icon-soc1"></span></a></div>
+            <div><a href="#"><span class="icon-soc2"></span></a></div>
+            <div><a href="#"><span class="icon-soc3"></span></a></div>
+            <div><a href="#"><span class="icon-soc4"></span></a></div>
+            <div><a href="#"><span class="icon-ytube"></span></a></div>
+        </div>
     </div>
 </footer>
 </body>
