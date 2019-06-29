@@ -4,7 +4,6 @@
 }
 
 body, html {
-    width: 1920px;
     margin: 0 auto;
     font-family: "Brutal Type";
     margin: 0 auto;
@@ -18,8 +17,11 @@ ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
-}
 
+}
+textarea {
+    resize: none;
+}
 .invisLink {
     position: relative;
     z-index: 1;
@@ -49,7 +51,7 @@ button:hover, input:hover {
 
 /*HEADER*/
 header {
-    width: 1920px;
+
     height: 110px;
     background-color: #ffffff;
 }
@@ -219,11 +221,9 @@ header .login > div + div {
 }
 /*------------------------------------------------------*!*/
 .content {
-    width: 1920px;
 }
 
 .banner {
-    width: 1920px;
     height: 910px;
     background-image: url(../img/png/banner.png);
 }
@@ -292,7 +292,6 @@ header .login > div + div {
 
 /*---------------------------------------------------------*/
 .about {
-    width: 1920px;
     height: 450px;
 
 }
@@ -362,7 +361,6 @@ header .login > div + div {
 
 /*----------------------------------*/
 .support {
-    width: 1920px;
     height: 690px;
 }
 
@@ -465,7 +463,7 @@ header .login > div + div {
 
 /*-------------------------------------*/
 .packet {
-    width: 1920px;
+
     height: 1080px;
     background-color: #102831;
     background-image: url(../img/png/packet.png);
@@ -778,7 +776,7 @@ header .login > div + div {
 
 /*-------------------------------------*/
 .graph {
-    width: 1920px;
+
     height: 450px;
 }
 
@@ -848,7 +846,7 @@ header .login > div + div {
 
 /*-------------------------------------------*/
 .dis {
-    width: 1920px;
+
     height: 490px;
     background-color: #102831;
     background-image: url(../img/png/about.png);
@@ -926,7 +924,7 @@ header .login > div + div {
 
 /*--------------------------------------------------*/
 .cash {
-    width: 1920px;
+
 
 }
 
@@ -989,7 +987,7 @@ header .login > div + div {
 
 /*---------------------------------------------------------*/
 .news {
-    width: 1920px;
+
     background-color: #f0f1f1;
     height: 741px;
 }
@@ -1123,7 +1121,7 @@ header .login > div + div {
 
 /*Вторая страница*/
 .bannerContacts {
-    width: 1920px;
+
     height: 330px;
     background-image: url(../img/jpg/contacts.jpg);
 }
@@ -1139,7 +1137,6 @@ header .login > div + div {
 
 /*----------------------*/
 .department {
-    width: 1920px;
     height: 710px;
 }
 
@@ -1220,7 +1217,7 @@ header .login > div + div {
 }
 
 .map {
-    width: 1920px;
+
     height: 850px;
 }
 
@@ -1282,8 +1279,9 @@ span:nth-child(4) {
 }
 
 .question {
-    width: 1920px;
-    height: 520px;
+    background-color: #f0f1f1;
+    padding-top: 115px;
+    padding-bottom: 210px;
 }
 
 .question .leftQ {
@@ -1295,7 +1293,18 @@ span:nth-child(4) {
     width: 66%;
     float: left;
 }
-
+.question .formQ {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.question .formQ > div:nth-child(1),
+.question .formQ > div:nth-child(2) {
+    width: calc(50% - 20px);
+}
+.question .formQ > div:nth-child(3) {
+    width: 100%;
+}
 .titQ span {
     font-size: 20px;
     line-height: 50px;
@@ -1326,29 +1335,32 @@ span:nth-child(4) {
     text-transform: uppercase;
 }
 
-.rightQ .themeQ {
+.rightQ input {
     background-color: white;
-    width: 360px;
+    width: 100%;
     height: 52px;
+    border: none;
+    box-shadow: 0 0 21px 3px rgba(0,0,0,0.1);;
 }
-
-.rightQ .mailQ {
+.rightQ textarea {
     background-color: white;
-    width: 360px;
-    height: 52px;
+    width: 100%;
+    height: 175px;
+    border: none;
+    box-shadow: 0 0 21px 3px rgba(0,0,0,0.1);
 }
 
 .rightQ label {
     font-size: 16px;
-    line-height: 110px;
+    line-height: 30px;
     color: #11252d;
     text-transform: uppercase;
     font-weight: bold;
+    display: block;
 }
 
 .rightQ span {
     font-size: 16px;
-    line-height: 110px;
     color: #2baf68;
     font-weight: bold;
 }
@@ -1388,11 +1400,11 @@ footer {
 }
 
 footer .container {
-    height: 482px;
-    background-color: #102831;
     position: relative;
 }
-
+.copyright {
+    background: white;
+}
 footer .miningLogo {
 
     height: 170px;
