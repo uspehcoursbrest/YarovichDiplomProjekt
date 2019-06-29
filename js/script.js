@@ -79,9 +79,45 @@ window.onload = function () {
         items: 2,
         nav: true,
         navText: [" ", " "]
-    }
+    })
 
-   )
+
+    $('.rightPack').owlCarousel({
+        items: 1,
+        dots: false,
+        nav: true,
+        navText: ["←", "→"]
+    })
+    $('.bannerSlides').owlCarousel({
+        items: 1,
+        dots: true
+    })
+
+
+    Highcharts.chart('graphImg', {
+        chart: {
+            type: 'column'
+        },
+        title: {
+            text: ''
+        },
+        xAxis: {
+            categories: ['01.10.18', '05.10.18', '05.10.18', '05.10.18', '05.10.18', '05.10.18']
+        },
+        yAxis: {
+            data: [0, 40, 80, 120, 160, 200]
+        },
+        credits: {
+            enabled: false
+        },
+        series: [{
+            name: 'a',
+            data: [70, 80, 160, 60, 40, 200]
+        }, {
+            name: 'b',
+            data: [100, 120, 120, 90, 60, 60]
+        }, ]
+    });
 
 }
 

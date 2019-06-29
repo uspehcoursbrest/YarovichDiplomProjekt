@@ -46,6 +46,7 @@ button:hover, input:hover {
     margin: 0 auto;
     width: 1170px;
 }
+
 /*HEADER*/
 header {
     width: 1920px;
@@ -204,11 +205,11 @@ header .login > div + div {
 .content {
     width: 1920px;
 }
+
 .banner {
     width: 1920px;
     height: 910px;
     background-image: url(../img/png/banner.png);
-    animation: blink 3s infinite;
 }
 
 .banner .container {
@@ -235,9 +236,14 @@ header .login > div + div {
 
 }
 
-.banner .left {
+.banner .bannerSlides .left {
     padding-top: 287px;
-
+    width: 1170px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
 }
 
 .banner .left h1 {
@@ -272,7 +278,7 @@ header .login > div + div {
 .about {
     width: 1920px;
     height: 450px;
-    width: 100%;
+
 }
 
 .about .left, .about .right {
@@ -416,6 +422,7 @@ header .login > div + div {
 .support .discription .blockSup:hover p {
     color: #000000;
 }
+
 .support .discription .blockSup:hover span {
     color: #000000;
 }
@@ -438,9 +445,6 @@ header .login > div + div {
     font-weight: bold;
     color: #d5efe1;
 }
-
-
-
 
 
 /*-------------------------------------*/
@@ -466,10 +470,36 @@ header .login > div + div {
 
 
 .packet .itemPack {
-    width: 50%;
+    width: 645px;
     float: left;
 }
+.rightPack .owl-nav {
+    text-align: center;
 
+}
+
+.rightPack .owl-nav > button[class*="owl"] {
+    width: 55px;
+    height: 20px;
+    font-weight: bold;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    font-size: 60px;
+    color: white;
+
+}
+
+.rightPack .owl-nav button.owl-prev {
+     /*background-image: url("../img/svg/30.svg");*/
+     margin-right: 45px;
+ }
+
+.rightPack .owl-nav button.owl-next {
+    /*background-image: url("../img/svg/29.svg");*/
+    margin-right: 10px;
+}
 .packet .leftPack {
     width: 525px;
     height: 435px;
@@ -562,9 +592,11 @@ header .login > div + div {
     line-height: 50px;
     color: #ffffff;
 }
+
 .rightPack button:hover {
     background-color: #ffb600;
 }
+
 .rightPack button {
     width: 187px;
     height: 200px;
@@ -579,7 +611,7 @@ header .login > div + div {
 
 .calculator {
     background-color: #2e4349;
-    box-shadow: 3px 3px 21px 0px rgba(0,0,0,0.11);
+    box-shadow: 3px 3px 21px 0px rgba(0, 0, 0, 0.11);
     opacity: 0.93;
 }
 
@@ -727,25 +759,45 @@ header .login > div + div {
     padding-top: 20px;
 }
 
+
 /*-------------------------------------*/
 .graph {
     width: 1920px;
-    height: 620px;
+    height: 450px;
 }
 
 .graph .graphWrap .shedule {
     width: 420px;
     height: 405px;
     float: left;
-    padding: 117px 64px 110px 0;
+    padding: 0px 64px 110px 0;
 }
 
-.graph .graphWrap .graphImg {
-    width: 745px;
-    height: 405px;
-    float: left;
-    padding: 117px 0 110px 0;
+/*.graph .graphWrap .graphImg {*/
+/*    width: 745px;*/
+/*    height: 405px;*/
+/*    float: left;*/
+/*    padding: 117px 0 110px 0;*/
 
+/*}*/
+.graphImg {
+    width: 745px;
+    height: 390px;
+    margin-top: 120px;
+}
+
+.highcharts-axis-title {
+    display: none;
+}
+
+.highcharts-legend {
+    display: none;
+}
+.highcharts-color-0 {
+    fill: #47c481;
+}
+.highcharts-color-1 {
+    fill: #ffc638;
 }
 
 .clear::after {
@@ -1027,9 +1079,11 @@ header .login > div + div {
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .newsSlides .owl-nav {
     text-align: center;
 }
+
 .newsSlides .owl-nav > button[class*="owl"] {
     width: 55px;
     height: 20px;
@@ -1041,19 +1095,21 @@ header .login > div + div {
 
 }
 
-.newsSlides .owl-nav  button.owl-prev {
+.newsSlides .owl-nav button.owl-prev {
     background-image: url("../img/svg/30.svg");
-   margin-right: 45px;
+    margin-right: 45px;
 }
-.newsSlides .owl-nav  button.owl-next {
+/**/
+.newsSlides .owl-nav button.owl-next {
     background-image: url("../img/svg/29.svg");
     margin-left: 10px;
 }
+
 /*Вторая страница*/
 .bannerContacts {
     width: 1920px;
     height: 330px;
-    background-image:url(../img/jpg/contacts.jpg);
+    background-image: url(../img/jpg/contacts.jpg);
 }
 
 .bannerContacts .titContacts {
@@ -1280,6 +1336,7 @@ span:nth-child(4) {
     color: #2baf68;
     font-weight: bold;
 }
+
 /*SLIDER*/
 #slides {
     position: relative;
@@ -1302,6 +1359,7 @@ span:nth-child(4) {
     -o-transition: opacity 1s;
     transition: opacity 1s;
 }
+
 .slide.showing {
     opacity: 1;
     z-index: 2;
