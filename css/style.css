@@ -226,6 +226,8 @@ header .login > div + div {
 .banner {
     height: 910px;
     background-image: url(../img/png/banner.png);
+    background-repeat: no-repeat;
+
 }
 
 .banner .container {
@@ -371,7 +373,8 @@ header .login > div + div {
     position: relative;
     background-color: #102831;
     background-image: url(../img/png/support.png);
-    animation: blink 3s infinite;
+    /*animation: blink 3s infinite;*/
+    background-repeat: no-repeat;
 }
 
 .support .discription .titSup {
@@ -467,6 +470,7 @@ header .login > div + div {
     height: 1080px;
     background-color: #102831;
     background-image: url(../img/png/packet.png);
+    background-repeat: no-repeat;
 }
 
 .pack {
@@ -850,6 +854,7 @@ header .login > div + div {
     height: 490px;
     background-color: #102831;
     background-image: url(../img/png/about.png);
+    background-repeat: no-repeat;
 
 }
 
@@ -1402,7 +1407,7 @@ footer {
 footer .container {
     position: relative;
 }
-.copyright {
+.wrapperDown {
     background: white;
 }
 footer .miningLogo {
@@ -1488,16 +1493,46 @@ footer .menuFooter a {
 }
 
 .wrapperDown {
-    width: 1170px;
+    /*width: 1170px;*/
     height: 45px;
     margin: 0 auto;
 }
-.wrapperDown > div {
+.wrapContainer > div {
     width: 50%;
     float: left;
+    margin-top: 10px;
 }
 
+.wrapperDown .social {
+    display: flex;
+    justify-content: space-between;
+    width: 215px;
+    margin-left: 320px;
 
+}
+footer .wrapperDown .social > div {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #102831;
+    text-align: center;
+    padding-top: 5px;
+}
+footer .wrapperDown .social a {
+    text-decoration: none;
+}
+
+footer .wrapperDown .social span {
+    margin-top: 10px;
+    font-size: 20px;
+    /*border: 1px solid #102831;*/
+    /*border-radius: 50%;*/
+    color: black;
+}
+.wrapContainer {
+    width: 1170px;
+    margin: 0 auto;
+}
 
 @media (max-width: 1199px) {
     .container {
